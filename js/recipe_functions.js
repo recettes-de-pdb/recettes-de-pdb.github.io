@@ -214,7 +214,7 @@ function writeHeader() {
                             <div class="classynav">
                                 <ul>
                                     <li id="btn-accueil"><a class="list-link" href="index.html">Accueil</a></li>
-                                    <li id="btn-recherche"><a class="list-link" href="search.html">Rechercher</a></li>
+                                    <li id="btn-recherche"><a class="list-link" href="search.html">Recherche</a></li>
                                     <li id="btn-menu"><a class="list-link" href="menu.html">Menu</a></li>
                                     <li id="btn-recipe"><a id="random-recipe-btn" class="list-link" href="#">Recette</a></li>
                                 </ul>
