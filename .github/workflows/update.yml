@@ -52,9 +52,9 @@ jobs:
         run: |
           rclone lsd gdrive: --drive-shared-with-me
 
-      - name: Sync Google Drive Folder
+      - name: Copy Google Drive Folder
         run: |
-          rclone sync gdrive:img img --progress --drive-shared-with-me
+          rclone copy gdrive:img img --progress --drive-shared-with-me --ignore-existing
 
       - name: Run Python script
         run: python script.py
@@ -63,6 +63,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
+          rm -f service_account.json
           git add .
           git diff --quiet && git diff --staged --quiet || git commit -m "Auto update website data"
           git push
