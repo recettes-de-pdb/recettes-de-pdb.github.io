@@ -40,10 +40,10 @@ jobs:
           echo '${{ secrets.GDRIVE_SERVICE_ACCOUNT }}' > service_account.json
           mkdir -p ~/.config/rclone
           echo "[gdrive]
-type = drive
-scope = drive.readonly
-service_account_file = $(pwd)/service_account.json
-" > ~/.config/rclone/rclone.conf
+          type = drive
+          scope = drive.readonly
+          service_account_file = $(pwd)/service_account.json
+          " > ~/.config/rclone/rclone.conf
 
       - name: Ensure img folder exists
         run: mkdir -p img
