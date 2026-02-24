@@ -25,18 +25,32 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
-          pip install --upgrade gdown
 
       - name: Download Google Sheets CSV
         run: |
           curl -L "https://docs.google.com/spreadsheets/d/1SZHriYyWnoYE6GRHVjEmODpTPu6toc64x_m0vd9KlXU/export?format=csv" -o Recettes.csv
 
-      - name: Download Google Drive Folder
+      - name: Install rclone
         run: |
-          gdown --folder \
-                --remaining-ok \
-                https://drive.google.com/drive/folders/1rX4KQI3DHdx9rtdzrTmjU3dVgrGlUhKW \
-                -O img
+          sudo apt-get update
+          sudo apt-get install -y rclone
+
+      - name: Configure rclone with Service Account
+        run: |
+          echo '${{ secrets.GDRIVE_SERVICE_ACCOUNT }}' > service_account.json
+          mkdir -p ~/.config/rclone
+          echo "[gdrive]
+type = drive
+scope = drive.readonly
+service_account_file = $(pwd)/service_account.json
+" > ~/.config/rclone/rclone.conf
+
+      - name: Ensure img folder exists
+        run: mkdir -p img
+
+      - name: Sync Google Drive Folder
+        run: |
+          rclone sync gdrive:1rX4KQI3DHdx9rtdzrTmjU3dVgrGlUhKW img --progress
 
       - name: Run Python script
         run: python script.py
