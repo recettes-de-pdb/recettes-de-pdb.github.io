@@ -30,7 +30,7 @@ jobs:
 
       - name: Download Google Drive Folder
         run: |
-          gdown --folder https://drive.google.com/drive/folders/1PKNPRId3Ml5uO9FjtJV2lmUX3KLyVF4q -O img
+          gdown --folder --remaining-ok https://drive.google.com/drive/folders/FOLDER_ID -O img
 
       - name: Run Python script
         run: python script.py
