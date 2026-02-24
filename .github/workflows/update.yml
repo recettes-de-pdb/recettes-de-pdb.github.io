@@ -26,11 +26,11 @@ jobs:
 
       - name: Download Google Sheets CSV
         run: |
-          curl -L "https://docs.google.com/spreadsheets/d/1SZHriYyWnoYE6GRHVjEmODpTPu6toc64x_m0vd9KlXU/export?format=csv" -o data.csv
+          curl -L "https://docs.google.com/spreadsheets/d/1SZHriYyWnoYE6GRHVjEmODpTPu6toc64x_m0vd9KlXU/export?format=csv" -o Recettes.csv
 
       - name: Download Google Drive Folder
         run: |
-          gdown --folder https://drive.google.com/drive/folders/1PKNPRId3Ml5uO9FjtJV2lmUX3KLyVF4q -O drive_data
+          gdown --folder https://drive.google.com/drive/folders/1PKNPRId3Ml5uO9FjtJV2lmUX3KLyVF4q -O img
 
       - name: Run Python script
         run: python script.py
