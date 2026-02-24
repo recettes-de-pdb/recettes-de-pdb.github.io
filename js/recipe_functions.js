@@ -335,7 +335,7 @@ function writePage() {
 const recipeDataLoaded = new CustomEvent("recipeDataLoaded", {});
 
 function parseRecipesCSV() {
-    const CsvFile = "https://maxoups.github.io/ancestral-cookbook/Recettes.csv"
+    const CsvFile = "https://recettes-de-pdb.github.io/Recettes.csv"
     recipesData = []
     // console.log("Try loading recipesData...");
 
