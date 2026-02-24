@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Ancestral Cookbook | Recherche</title>
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* === Custom styles for search page === */
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin: 20px 0;
+        }
+
+        .filters input,
+        .filters select,
+        .filters button {
+            padding: 8px;
+            border-radius: 6px;
+            font-size: 18px;
+            font-family: 'EB Garamond', serif;
+            border: none;
+        }
+
+        .tags-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            font-family: 'EB Garamond', serif;
+        }
+
+        .tag {
+            font-family: 'EB Garamond', serif;
+            background: #7E5B34;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 12px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+        .tag-option {
+            font-family: 'EB Garamond', serif;
+            background-color: #CAA860;
+            padding-right: 10px;
+            padding-left: 10px;
+            margin-bottom: 3px;
+            border-radius: 10px;
+            font-size: 17px;
+        }
+
+        .dropdown {
+            position: absolute;
+            z-index: 1000;
+            max-height: 200px; /* adjust as needed */
+            overflow-y: auto;
+            background-color: #E4D2AC;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .tag-option {
+                background-color: #7E5B34;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="website-header"></div>
+
+    <!-- ##### Breadcumb Area Start ##### -->
+    <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/breadcumb3.jpg); margin-bottom: 40px;">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcumb-text text-center">
+                        <h2 class="page-header">Recherche de recettes</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Breadcumb Area End ##### -->
+
+    <div class="container">
+        <!-- Filters -->
+        <div class="filters">
+            <input type="text" id="searchBar" style="min-width: 300px; margin-top: 30px;" placeholder="Rechercher un nom de recette...">
+
+            <select id="categoryFilter">
+                <option value="">Toutes les catégories</option>
+            </select>
+
+            <select id="chefFilter">
+                <option value="">Tous les cuistots</option>
+            </select>
+
+            <div class="tag-search-container">
+                <input type="text" id="tag-input" style="min-width: 250px;" placeholder="Filtrer par tags...">
+                <div class="dropdown" id="dropdown"></div>
+            </div>
+            
+        </div>
+
+        <!-- Active tags -->
+        <div class="tags-container" id="activeTags" style="margin-bottom: 60px;"></div>
+
+        <!-- Results -->
+        <div class="results" id="results"></div>
+
+        <div style="min-height: 300px;"></div>
+    </div>
+
+
+    <!-- jQuery (required by Owl Carousel) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- PapaParse -->
+    <script src="js/PapaParse-5.0.2/papaparse.min.js"></script>
+    <script src="js/recipe_functions.js"></script>
+
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    
+    <script>
+        const searchBar = document.getElementById("searchBar");
+        const categoryFilter = document.getElementById("categoryFilter");
+        const chefFilter = document.getElementById("chefFilter");
+        const resultsDiv = document.getElementById("results");
+        const activeTagsDiv = document.getElementById("activeTags");
+
+        let allTags = [];
+        const tagInput = document.getElementById("tag-input");
+        const dropdown = document.getElementById("dropdown");
+
+        let activeTags = [];
+
+        function extractAllTags() {
+            if (!recipesData || recipesData.length === 0) return [];
+            const tagsSet = new Set();
+            recipesData.forEach(recipe => {
+                let tags = recipe.Tags;
+                if (typeof tags === "string") {
+                    tags = tags.split(/[,;]\s*/);
+                } else if (!Array.isArray(tags)) {
+                    tags = [];
+                }
+                tags.forEach(tag => {
+                    if (tag && tag.trim()) tagsSet.add(tag.trim().toLowerCase());
+                });
+            });
+            return Array.from(tagsSet);
+        }
+
+        function initFilters() {
+            categoryFilter.innerHTML = `<option value="">Toutes les catégories</option>`;
+            chefFilter.innerHTML = `<option value="">Tous les cuistots</option>`;
+
+            if (!recipesData || recipesData.length === 0) {
+                console.warn("recipesData is empty when building filters");
+                return;
+            }
+
+            // Normalize keys just in case (toLowerCase)
+            const types = [...new Set(recipesData.map(r => (r.Type || r.type || "").trim()).filter(Boolean))];
+            const chefs = [...new Set(recipesData.map(r => (r.Cuistot || r.cuistot || "").trim()).filter(Boolean))];
+            allTags = extractAllTags();
+
+            types.forEach(type => {
+                const opt = document.createElement("option");
+                opt.value = type;
+                opt.textContent = type;
+                categoryFilter.appendChild(opt);
+            });
+
+            chefs.forEach(chef => {
+                const opt = document.createElement("option");
+                opt.value = chef;
+                opt.textContent = chef;
+                chefFilter.appendChild(opt);
+            });
+
+            $('#chefFilter').niceSelect('update');
+            $('#categoryFilter').niceSelect('update');
+
+            $('#categoryFilter').on('change', filterRecipes);
+            $('#chefFilter').on('change', filterRecipes);
+
+            // For nice-select custom UI:
+            $('.nice-select').on('change', filterRecipes);
+            $('.nice-select').on('click', function() {
+                setTimeout(filterRecipes, 10); // slight delay to allow value to update
+            });
+        }
+
+        function addTag(my_tag) {
+            my_tag = my_tag.trim();
+            if (my_tag && !activeTags.includes(my_tag)) {
+                activeTags.push(my_tag);
+                renderTags();
+                filterRecipes();
+            }
+
+            tagInput.value = "";
+            dropdown.textContent = "";
+            updateDropdown();
+        }
+
+
+        function removeTag(tag) {
+            activeTags = activeTags.filter(t => t !== tag);
+            renderTags();
+            filterRecipes();
+        }
+
+        function renderTags() {
+            activeTagsDiv.innerHTML = "";
+            activeTags.forEach(tag => {
+                const span = document.createElement("span");
+                span.className = "tag";
+                span.textContent = tag + " ✕";
+                span.onclick = () => removeTag(tag);
+                activeTagsDiv.appendChild(span);
+            });
+        }
+
+    function filterRecipes() {
+        const searchTerm = searchBar.value.toLowerCase();
+        const category = categoryFilter.value;
+        const chef = chefFilter.value;
+
+        const filtered = recipesData.filter(recipe => {
+            // Ensure Tags is always an array
+            let tags = recipe.Tags;
+            if (typeof tags === "string") {
+                // split CSV field into array (assuming separated by commas or semicolons)
+                tags = tags.split(/[,;]\s*/);
+            } else if (!Array.isArray(tags)) {
+                tags = []; // fallback
+            }
+
+            const matchesSearch = recipe.Titre.toLowerCase().includes(searchTerm);
+            const matchesCategory = !category || recipe.Type === category;
+            const matchesChef = !chef || recipe.Cuistot === chef;
+            const matchesTags = activeTags.every(tag =>
+                tags.map(t => t.toLowerCase()).includes(tag.toLowerCase())
+            );
+
+            return matchesSearch && matchesCategory && matchesChef && matchesTags;
+        });
+
+        renderResults(filtered);
+    }
+
+
+    function renderResults(list) {
+        resultsDiv.innerHTML = "";
+        if (list.length === 0) {
+            resultsDiv.innerHTML = "<p style='font-size: 20px; text-align: center; position:absolute;font-family:EB Garamond;font-weight: 900;'>Aucune recette trouvée.</p>";
+            return;
+        }
+
+        list.forEach(r => {
+            // Normalize tags
+            let tags = r.Tags;
+            if (typeof tags === "string") {
+                tags = tags.split(/[,;]\s*/);
+            } else if (!Array.isArray(tags)) {
+                tags = [];
+            }
+
+            const div = document.createElement("div");
+            div.className = "meal-item";
+            div.onclick = () => window.open(`recipe.html?name=${r.ID}`, "_blank");
+
+            div.innerHTML = `
+                <img class="meal-img" onerror="javascript:this.src='img/core-img/logo.png'" src="${r.Miniature}">
+                <h3 class="meal-title">${r.Titre}</h3>
+                <p class="meal-desc">${r.Cuistot}</p>
+                <p class="meal-desc">${tags.join(", ")}</p>
+                <p class="meal-item-button">RECETTE</p>
+            `;
+            resultsDiv.appendChild(div);
+        });
+    }
+
+        searchBar.addEventListener("input", filterRecipes);
+
+        // Init
+        if (isRecipesDataLoaded) {
+            initFilters();
+            filterRecipes();
+        } else {
+            document.addEventListener("recipeDataLoaded", function () {
+                console.log("RecipesData loaded from EventListnener");
+                initFilters();
+                filterRecipes();
+            });
+        }
+
+  function updateDropdown() {
+    const value = tagInput.value.trim().toLowerCase();
+    dropdown.innerHTML = ""; // Clear previous results
+
+    const filteredTags = allTags.filter(tag => tag.toLowerCase().includes(value));
+
+    if (filteredTags.length === 0) {
+      dropdown.style.display = "none";
+      return;
+    }
+
+    filteredTags.forEach(tag => {
+      const option = document.createElement("div");
+      option.textContent = tag;
+      option.classList.add("tag-option");
+      option.addEventListener("click", () => {
+        addTag(tag)
+      });
+      dropdown.appendChild(option);
+    });
+
+    dropdown.style.display = "block";
+  }
+
+  // Show dropdown on input and focus
+  tagInput.addEventListener("input", updateDropdown);
+  tagInput.addEventListener("focus", updateDropdown);
+
+  // Hide dropdown when clicking outside
+  document.addEventListener("click", (e) => {
+    if (!document.querySelector('.tag-search-container').contains(e.target)) {
+      dropdown.innerHTML = "";
+      dropdown.style.display = "none";
+    }
+  });
+</script>
+</body>
+</html>

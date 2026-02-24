@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Ancestral Cookbook | Menu</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .reroll-btn {
+            background-color: #9C926D;
+            color: #E4D2AC;
+            border: none;
+            border-radius: 6px;
+            padding: 6px 18px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background-color 300ms, transform 300ms;
+            margin-bottom: 30px;
+            transform: scale(1);
+        }
+        .reroll-btn:hover {
+            background-color: #615B42;
+            transform: scale(1.1);
+        }
+        .reroll-btn:active {
+            background-color: #3e3a2b;
+        }
+
+        @keyframes shake-updown {
+            0%   { transform: translateY(0); }
+            20%  { transform: translateY(-22.5px); }
+            40%  { transform: translateY(22.5px); }
+            60%  { transform: translateY(-22.5px); }
+            80%  { transform: translateY(22.5px); }
+            100% { transform: translateY(0); }
+        }
+
+        .meal-item.shake {
+            animation: shake-updown 0.9s;
+        }
+
+        @media (prefers-color-scheme:dark ) { 
+            .reroll-btn {
+                background-color: #615B42;
+                color: #E4D2AC;
+            }
+            .reroll-btn:hover {
+                background-color: #9C926D;
+            }
+            .reroll-btn:active {
+                background-color: #bcb39a;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="website-header"></div>
+        <!-- Recipe Slider -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="slider-container"></div>
+                </div>
+            </div>
+        </div>
+
+    <!-- ##### Breadcumb Area Start ##### -->
+    <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/breadcumb3.jpg); margin-bottom: 60px; margin-top: -1px;">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcumb-text text-center">
+                        <h2 class="page-header">Menu Complet</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Breadcumb Area End ##### -->
+
+    <div class="container" style="margin-bottom: 60px; align-self: center;">
+        <div class="results" style="display: flex; flex-wrap: wrap; justify-content: center; gap:40px;" id="results"></div>
+    </div>
+
+
+    <!-- ##### Breadcumb Area Start ##### -->
+    <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/breadcumb3.jpg); margin-bottom: 60px;">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcumb-text text-center">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Breadcumb Area End ##### -->
+
+
+    <!-- jQuery (required by Owl Carousel) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+    <script src="js\PapaParse-5.0.2\papaparse.min.js"></script>
+    <script src="js/recipe_functions.js"></script>
+
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+    <script>
+
+    const resultsDiv = document.getElementById("results");
+
+    function getRandomRecipe(type) {
+        const filtered = recipesData.filter(r => r.Type === type);
+        if (filtered.length === 0) return null;
+        return filtered[Math.floor(Math.random() * filtered.length)];
+    }
+
+    function setMealContent(final = false) {
+    // Clear previous interval and timeout if they exist
+    if (mealDiv._shakeInterval) {
+        clearInterval(mealDiv._shakeInterval);
+        mealDiv._shakeInterval = null;
+    }
+    if (mealDiv._shakeTimeout) {
+        clearTimeout(mealDiv._shakeTimeout);
+        mealDiv._shakeTimeout = null;
+    }
+
+    let cycles = 0;
+    const maxCycles = 20;
+    const cycleDelay = 60;
+
+    function showRandomRecipe() {
+        if (!final) {
+            mealDiv.classList.add("shake");
+            // Remove shake class after animation duration (600ms)
+            mealDiv._shakeTimeout = setTimeout(() => {
+                mealDiv.classList.remove("shake");
+                mealDiv._shakeTimeout = null;
+            }, 600);
+        }
+        const recipe = getRandomRecipe(type);
+        if (!recipe) {
+            mealDiv.innerHTML = "<p>Aucune recette trouvée.</p>";
+            return;
+        }
+        let tags = recipe.Tags;
+        if (typeof tags === "string") {
+            tags = tags.split(/[,;]\s*/);
+        } else if (!Array.isArray(tags)) {
+            tags = [];
+        }
+        mealDiv.innerHTML = `
+            <img class="meal-img" onerror="javascript:this.src='img/core-img/logo.png'" src="${recipe.Miniature}">
+            <h3 class="meal-title">${recipe.Titre}</h3>
+            <p class="meal-desc">${recipe.Cuistot}</p>
+            <p class="meal-desc">${tags.join(", ")}</p>
+            <p class="meal-item-button">RECETTE</p>
+        `;
+        mealDiv.onclick = () => window.open(`recipe.html?name=${recipe.ID}`, "_blank");
+    }
+
+    if (!final) {
+        mealDiv._shakeInterval = setInterval(() => {
+            showRandomRecipe();
+            cycles++;
+            if (cycles >= maxCycles) {
+                clearInterval(mealDiv._shakeInterval);
+                mealDiv._shakeInterval = null;
+                setMealContent(true);
+            }
+        }, cycleDelay);
+    } else {
+        mealDiv.classList.remove("shake");
+        showRandomRecipe();
+    }
+}
+
+    function renderRandomMenu() {
+    resultsDiv.innerHTML = "";
+    const types = ["Entrée", "Plat", "Dessert"];
+    types.forEach((type, idx) => {
+        const wrapper = document.createElement("div");
+        wrapper.style.display = "flex";
+        wrapper.style.flexDirection = "column";
+        wrapper.style.alignItems = "center";
+
+        // Create reroll button
+        const button = document.createElement("button");
+        button.textContent = "↻ Relancer";
+        button.className = "reroll-btn";
+
+        // Create meal item
+        const mealDiv = document.createElement("div");
+        mealDiv.className = "meal-item";
+
+        // Animation logic
+        function setMealContent(final = false) {
+            // Clear previous interval and timeout if they exist
+            if (mealDiv._shakeTimeout) {
+                clearTimeout(mealDiv._shakeTimeout);
+                mealDiv._shakeTimeout = null;
+            }
+            if (mealDiv._changeTimeout) {
+                clearTimeout(mealDiv._changeTimeout);
+                mealDiv._changeTimeout = null;
+            }
+
+            // Animation duration
+            const animationDuration = 1800; // ms (1.5x longer)
+            const cycleDelay = 66; // ms (1.5x faster)
+            const cycles = Math.floor(animationDuration / cycleDelay);
+            let currentCycle = 0;
+
+            function showRandomRecipe() {
+                const recipe = getRandomRecipe(type);
+                if (!recipe) {
+                    mealDiv.innerHTML = "<p>Aucune recette trouvée.</p>";
+                    return;
+                }
+                let tags = recipe.Tags;
+                if (typeof tags === "string") {
+                    tags = tags.split(/[,;]\s*/);
+                } else if (!Array.isArray(tags)) {
+                    tags = [];
+                }
+                mealDiv.innerHTML = `
+                    <img class="meal-img" onerror="javascript:this.src='img/core-img/logo.png'" src="${recipe.Miniature}">\n                    <h3 class=\"meal-title\">${recipe.Titre}</h3>\n                    <p class=\"meal-desc\">${recipe.Cuistot}</p>\n                    <p class=\"meal-desc\">${tags.join(", ")}</p>\n                    <p class=\"meal-item-button\">RECETTE</p>\n                `;
+                mealDiv.onclick = () => window.open(`recipe.html?name=${recipe.ID}`, "_blank");
+            }
+
+            if (!final) {
+                // Set shake animation duration to match the menu change duration
+                mealDiv.classList.add("shake");
+                mealDiv.style.animationDuration = "0.9s";
+                // Cycle through random recipes
+                function cycle() {
+                    showRandomRecipe();
+                    currentCycle++;
+                    if (currentCycle < cycles) {
+                        mealDiv._changeTimeout = setTimeout(cycle, cycleDelay);
+                    } else {
+                        mealDiv.classList.remove("shake");
+                        mealDiv.style.animationDuration = "";
+                        showRandomRecipe(); // Final recipe
+                    }
+                }
+                cycle();
+                // Remove shake after animationDuration
+                mealDiv._shakeTimeout = setTimeout(() => {
+                    mealDiv.classList.remove("shake");
+                    mealDiv.style.animationDuration = "";
+                }, animationDuration);
+            } else {
+                mealDiv.classList.remove("shake");
+                mealDiv.style.animationDuration = "";
+                showRandomRecipe();
+            }
+        }
+
+        button.onclick = () => setMealContent(false);
+        // Add delay between first, second, third item on page load
+        setTimeout(() => setMealContent(false), idx * 400);
+
+        wrapper.appendChild(button);
+        wrapper.appendChild(mealDiv);
+        resultsDiv.appendChild(wrapper);
+    });
+}
+
+
+    // Wait for recipesData to be loaded
+    document.addEventListener("recipeDataLoaded", function () {
+        renderRandomMenu();
+    });
+
+    // If data is already loaded
+    if (typeof recipesData !== "undefined" && recipesData.length > 0) {
+        renderRandomMenu();
+    }
+    </script>
+</body>
+
+</html>
