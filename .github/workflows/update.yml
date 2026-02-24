@@ -54,7 +54,7 @@ jobs:
 
       - name: Sync Google Drive Folder
         run: |
-          rclone sync gdrive:1rX4KQI3DHdx9rtdzrTmjU3dVgrGlUhKW img --progress --drive-shared-with-me
+          rclone sync gdrive:img img --progress --drive-shared-with-me
 
       - name: Run Python script
         run: python script.py
