@@ -352,22 +352,10 @@ Laisser reposer 45 minutes au frigo.
 Faire des petites boules à partir de la préparation, puis les rouler dans le cacao avant de les remettre au frigo.",,
 curry,INC/Curry,Kaki,Plat,"Anniversaire, Viande, Riz, Chaud",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
 courgettes-farcies,INC/Courgettes farcies,Kaki,Plat,"Riz, Légumes, Viande, Chaud",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
-lasagnes,INC/Lasagnes,Kaki,Plat,"Chaud, Réconfortant, Pâtes, Viande, Italie",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
-gratin-de-pates,INC/Grâtin de pâtes,Kaki,Plat,"Kiffeur, Pâtes, Viande, Réconfortant, Chaud, Facile, Étudiant",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
-crepes-sarrasin,INC/Crêpes au sarrasin,Kaki,Plat,"Bretagne, Facile, Réconfortant",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
-crepes-froment,INC/Crêpes au froment,Kaki,Dessert,"Bretagne, Facile, Réconfortant, Brunch",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
+gratin-de-pates,INC/Grâtin de pâtes,Méliné,Plat,"Kiffeur, Pâtes, Viande, Réconfortant, Chaud, Facile, Étudiant",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
 gateau-chocolat-petite,INC/Gâteau au chocolat de Petite,Méliné,Dessert,"Réconfortant, Chocolat, Gâteau, Végétarien",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
-poulet-persil-parmesan,INC/Poulet au persil et parmesan,Maxence,Plat,"Viande, Facile, Chaud, France",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
-roti-boeuf-italienne,INC/Rôti de boeuf à l'italienne,Kaki,Plat,"Viande, Italie, Chaud, Printemps",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
-bar-en-papillotte,INC/Bar en papillotte,Kaki,Plat,"Poisson, Chaud, Stylé",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
-pain-kebab,INC/Pain à kebab,Kaki,Autre,"Végétarien, Vegan, Moyen-Orient, Facile",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
-galettes-pommes-de-terre,INC/Galettes de pommes de terre,Nadja,Plat,"Végétarien, Vegan, Chaud",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
-gnocchi-butternut,INC/Gnocchi de butternut,Kaki,Plat,"Vegan, Végétarien, Italie, Chaud",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
-quasi-veau,INC/Quasi de veau,Kaki,Plat,"Viande, Chaud, France",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
 panna-cotta,INC/Panna cotta,Kaki,Dessert,"Froid, Italie, Fromage, Fruits",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
-boeuf-bourguignon,INC/Boeuf bourguignon,Kaki,Plat,"Viande, France, Chaud, Facile",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
-boeuf-stroganoff,INC/Boeuf stroganoff,Kaki,Plat,"Viande, Chaud, Réconfortant",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
-cookies-flocons-avoine,INC/Cookies aux flocons d'avoine,Méliné,Dessert,"Réconfortant, Léger, Chocolat, Goûter, Anglo-saxon",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
+boeuf-bourguignon,INC/Boeuf bourguignon,Kaki,Plat,"Viande, France, Chaud, Facile",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/bourguignon-1.jpg, img/bourguignon-2.jpg, img/bourguignon-3.jpg, img/bourguignon-4.jpg",img/bourguignon-1_mini.jpg
 tourte-viande,Tourte à la viande,Maxence,Plat,"Tarte, Anglo-saxon, Viande, Légumes, Réconfortant, Chaud, Automne","Très bonne tourte, mais faut mettre vla des épices.",2 heures,"1 pâte feuilletée
 # Pâte brisée
 300g de farine
@@ -768,8 +756,8 @@ Une fois homogène, poursuivre la cuisson 5 minutes et retirer du feu.
 
 Conserver dans des pots à confitures au frigo.
 ",,
-,Viennoiseries,Kaki,Autre,Goûter,,,,,img/viennoiseries-1.jpg,img/viennoiseries-1_mini.jpg
-sushis-et-makis,Sushis & Makis,Lou,Plat,"Froid, Riz",Tellement moins cher qu'en magasin... Penser à avoir une natte de bambou pour la préparation.,1h30,"# Riz à sushi
+,Viennoiseries,Kaki,Autre,"Goûter, Stylé, Chocolat",,,,,img/viennoiseries-1.jpg,img/viennoiseries-1_mini.jpg
+sushis-et-makis,Sushis & Makis,Lou,Plat,"Froid, Riz, Asie, Poisson, Réconfortant",Tellement moins cher qu'en magasin... Penser à avoir une natte de bambou pour la préparation.,1h30,"# Riz à sushi
 400g de riz à sushi
 590mL d'eau
 80mL de vinaigre à riz
@@ -847,3 +835,47 @@ Ensuite, faire cuire dans une cocotte minute 15 minutes à partir du bruit de ps
 
 Servir avec plein de sauce.","img/paupiette-chou-fleur-1.jpg, img/paupiette-chou-fleur-2.jpg, img/paupiette-chou-fleur-1.jpg",img/paupiette-chou-fleur-1_mini.jpg
 cuisse-dinde-legumes,Cuisse de dinde aux légumes,Kaki,Plat,"Kiffeur, Légumes, Viande, Chaud, Hiver","Le fameux plat de Noël, mais pour une fois, la crème fraîche est en option.",1h20,,,"img/cuisse-dinde-legumes-1.jpg, img/cuisse-dinde-legumes-2.jpg, img/cuisse-dinde-legumes-3.jpg",img/cuisse-dinde-legumes-1_mini.jpg
+ramen-poulet,Ramen au poulet,Lou,Plat,"Chaud, Pâtes, Asie, Stylé, Viande",Attention à pas trop saler ! Sinon c'est super bon. Il faut des grands bols c'est important les grands bols.,50 minutes,"# Oeufs marinés
+4 oeufs
+3 c.a.s. de mirin
+3 c.a.s. de saké (ou autre alcool)
+2 c.a.s. de sucre
+3 c.a.s. de sauce soja salée
+# Bouillon
+1 bouillon de légume ou de viande
+1 litre d'eau
+4 c.a.s. de sauce soja salée
+4 c.a.s. de sauce soja sucrée
+Gingembre frais ou mariné
+2 oignons tiges (ou échalotes)
+# Garniture
+125g de nouilles (soba/udon/ramen)
+Algues séchées
+150g de filet de poulet (ou tofu)
+100g de champignons
+Graines de sésame","# Oeufs marinés
+
+À préparer au moins 12 à 24 heures à l'avance. Faire cuire les oeufs mollets dans une casserole (5 minutes dans l'eau bouillante, puis mettre immédiatement sous l'eau froide). Une fois refroidis, écailler les oeufs. 
+
+Dans une petite casserole, mettre le mirin, le saké, la sauce soja, et le sucre, puis porter à ébullition. Éteindre le feu dès que le mélange commence à bouillir, puis bien mélanger.
+
+Placer la marinade et les oeufs dans un sac congélation, retirer autant d'air que possible, fermer hermétiquement puis laisser mariner au frigo pendant au moins 12 heures. On pourra réutiliser la marinade à la place de la sauce soja dans le bouillon des ramen.
+
+# Bouillon et garniture
+
+Éplucher puis découper les oignons tiges (ou échalotes) en petits morceaux. Peler et raper le gingembre.
+
+Dans une casserole, faire revenir les oignons avec le gingembre pendant quelques minutes à feu moyen.
+
+Ajouter le litre d'eau, la sauce soja (ou la marinade des oeufs), le bouillon, couvrir et faire cuire 10 minutes à feu moyen.
+
+Cuire les nouilles selon les indications sur l'emballage, puis égoutter et réserver.
+
+Faire griller le poulet ou tofu avec les champignons. Assaisonner selon les préférences.
+
+# Assemblage
+
+Verser le bouillon dans les bols à ramen. 
+
+Disposer dans chaque bol une portion de nouilles, de poulet coupé en lamelles, de champignons. Décorer de quelques feuilles d'algues séchées et de graines de sésame. 
+On peut encore ajouter de la sauce soja ou marinade des oeufs dans le bouillon pour décorer ou ajouter du goût, mais penser à goûter avant, le tout peut rapidement devenir trop salée !","img/ramen-1.jpg, img/ramen-2.jpg, img/ramen-3.jpg, img/ramen-4.jpg",img/ramen-1_mini.jpg
