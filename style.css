@@ -1747,7 +1747,9 @@ html {
 }
 
 @media (max-width: 800px) {
-    .recipe-columns { column-count: 2; }
+    .recipe-columns { 
+      column-count: 2; 
+    }
 }
 
 @media (max-width: 500px) {
