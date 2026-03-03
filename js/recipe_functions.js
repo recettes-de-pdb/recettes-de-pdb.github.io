@@ -128,8 +128,79 @@ function getRandomRecipes(count) {
   return recipeArray;
 }
 
+function getAllRecipes() {
+  let recipeArray = [];
+
+  // Convert dictionary to array if needed
+  let recipes = Array.isArray(recipesData)
+    ? recipesData
+    : Object.values(recipesData);
+
+  recipes.forEach(item => {
+    if (item.Titre && item.ID) {
+      recipeArray.push({
+        Titre: item.Titre,
+        ID: item.ID
+      });
+    }
+  });
+
+  return recipeArray;
+}
+
 
 function writeRecipeBoxes() {
+    let recipeNames = getAllRecipes();
+
+    const recipeBox = document.getElementById("recipes-box");
+
+    // Sort alphabetically (French locale safe)
+    recipeNames.sort((a, b) => 
+        a.Titre.localeCompare(b.Titre, 'fr', { sensitivity: 'base' })
+    );
+
+    let currentLetter = "";
+    let recipesHTML = `<div class="recipe-columns">`;
+
+    for (let recipe of recipeNames) {
+
+        // Get first letter (uppercase)
+        let firstLetter = recipe.Titre.trim().charAt(0).toUpperCase();
+
+        // If first letter changes → add big letter header
+        if (firstLetter !== currentLetter) {
+            currentLetter = firstLetter;
+            customStyle = ""
+
+            if (currentLetter == "A") {
+                recipesHTML += `
+                <div class="letter-header" style="margin-top: 0px;">
+                    ${currentLetter}
+                </div>`;
+            } else {
+                recipesHTML += `
+                <div class="letter-header">
+                    ${currentLetter}
+                </div>`;
+            }
+
+            
+        }
+
+        // Add recipe link
+        recipesHTML += `
+            <div class="recipe-item">
+                <a href="recipe.html?name=${encodeURIComponent(recipe.ID)}">
+                    ${recipe.Titre}
+                </a>
+            </div>`;
+    }
+
+    recipesHTML += `</div>`;
+
+    recipeBox.innerHTML = recipesHTML;
+}
+/*function writeRecipeBoxes() {
     let recipeNames = getRandomRecipes(12);
     console.log("recipeNames = " + recipeNames);
     const recipeBox = document.getElementById("recipes-box");
@@ -142,7 +213,7 @@ function writeRecipeBoxes() {
             </a>`;
     }
     recipeBox.innerHTML = recipesHTML;
-}
+}*/
 
 function goToRandomRecipe(event) {
     event.preventDefault(); // prevent the default <a> navigation

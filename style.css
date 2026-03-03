@@ -1715,6 +1715,45 @@ html {
     scrollbar-color: #9C926D #E4D2AC;
 }
 
+.recipe-columns {
+    column-count: 3;              /* number of columns */
+    column-gap: 40px;
+    margin: 0 auto;
+}
+
+.recipe-item {
+    break-inside: avoid;
+    margin-bottom: 10px;
+}
+
+.recipe-item a {
+    text-decoration: none;
+    color: #333;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.letter-header {
+    break-inside: avoid;
+    font-size: 52px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #E4D2AC;
+}
+
+.recipe-item a:hover {
+    color: #e67e22;
+}
+
+@media (max-width: 800px) {
+    .recipe-columns { column-count: 2; }
+}
+
+@media (max-width: 480px) {
+    .recipe-columns { column-count: 1; }
+}
+
 /* Dark mode scrollbar */
 @media (prefers-color-scheme: dark) {
     ::-webkit-scrollbar-track {
@@ -1731,6 +1770,14 @@ html {
     
     html {
         scrollbar-color: #3F2E1F #121212;
+    }
+
+    .recipe-item a {
+    color: #a87777;
+    }
+
+    .recipe-item a:hover {
+    color: #E4D2AC;
     }
 }
 
