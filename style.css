@@ -1750,8 +1750,12 @@ html {
     .recipe-columns { column-count: 2; }
 }
 
-@media (max-width: 480px) {
-    .recipe-columns { column-count: 1; }
+@media (max-width: 500px) {
+    .recipe-columns { 
+      column-count: 1; 
+      margin-left: 40px;
+      margin-right: 40px;
+    }
 }
 
 /* Dark mode scrollbar */
