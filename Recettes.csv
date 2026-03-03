@@ -929,7 +929,7 @@ Découper le biscuit en trois rectangles égaux.
 Imbiber la première couche de sirop de matcha, étaler une couche de crème au beurre au matcha, puis ajouter la ganache.
 
 Empiler et répéter l'étape précédente avec les deux rectangles de biscuit restants, en terminant par une couche de ganache brillante.","img/opera-choco-matcha-1.jpg, img/opera-choco-matcha-2.jpg, img/opera-choco-matcha-3.jpg",img/opera-choco-matcha-1_mini.jpg
-,Saumon mariné au miso,Lou,Plat,"Poisson, Japon, Riz, Chaud, Réconfortant",Repas du flemmard tant que la marinade est anticipée.,15 minutes,"# Marinade
+saumon-marine-miso,Saumon mariné au miso,Lou,Plat,"Poisson, Japon, Riz, Chaud, Réconfortant",Repas du flemmard tant que la marinade est anticipée.,15 minutes,"# Marinade
 80 g de pâte miso
 2 c.a.s. de sauce soja
 3 c.a.s. de saké (ou vin blanc)
@@ -947,21 +947,43 @@ Laisser mariner à plat au frais, pendant une nuit.
 # Cuisson
 
 Faire cuire les pavés de saumon marinés. Déposer les pavés cuits sur un bol de riz. ","img/saumon-marine-miso-1.jpg, img/saumon-marine-miso-2.jpg, img/saumon-marine-miso-3.jpg",img/saumon-marine-miso-1_mini.jpg
-gateau-pommes-caramel,Gâteau pommes-caramel,Maxence,Dessert,"Gâteau, Végétarien, Goûter, France, Fruits, Automne",Beh c'est comme un gâteau aux pommes mais avec du caramel en plus hein.,1 heure,"# Coulis pommes-caramel
+gateau-pommes-caramel,Gâteau tatin pommes-caramel,Maxence,Dessert,"Gâteau, Végétarien, Goûter, France, Fruits, Automne",Beh c'est comme un gâteau aux pommes mais avec du caramel en plus hein.,1 heure,"# Coulis pommes-caramel
 200g de sucre
-80g de crème liquide
+100g de crème liquide
 1 c.a.c. d'extrait de vanille liquide
-2-3 pommes 
+1,5 pommes 
 # Gâteau aux pommes
 1 c.a.c. d'extrait de vanille liquide
 70g d'huile de tournesol
 120g de lait
 3 oeufs
 75g de sucre roux
-75g de sucre
+75g de sucre glace
 200g de farine
-2 c.a.c. de levure
+1 sachet de levure chimique
 ½ c.a.c. de sel
 1 c.a.c. de cannelle
 ½ c.a.c. de gingembre en poudre
-1 pomme",,,
+1,5 pommes","# Préparation du coulis
+
+Préchauffer le four à 180°C et préparer un moule à gâteau rond en y ajoutant une feuille de papier sulfurisé.
+
+Découper les pommes en lamelles.
+
+Verser le sucre dans une petite casserole et faire chauffer sur feu moyen, jusqu'à ce que le sucre soit entièrement fondu. Continuer à mélanger jusqu'à obtenir un caramel bien ambré. Attention, le caramel met un moment à chauffer mais une fois chaud brule très vite.
+
+Sortir du feu et ajouter la crème liquide et l'extrait de vanille liquide tièdes. Bien mélanger jusqu'à obtenir un caramel uniforme. Si certains morceaux cristallise, on peut remettre le caramel sur le feu pour faire fondre le tout.
+
+Ajouter le caramel au fond du moule à gâteau. Ajouter ensuite les lamelles de pommes jusqu'à recouvrir le fond du moule.
+
+# Gâteau aux pommes
+
+Dans un grand bol, fouetter le sucre glace, sucre roux, les oeufs, le lait et l'huile jusqu'à obtenir un mélange uni.
+
+Ajouter la farine, la levure chimique, le sel, la cannelle et le gingembre. Mélanger ensuite vigoureusement jusqu'à obtenir une pâte à gâteau sans grumeaux.
+
+Couper les pommes en morceaux et les ajouter à la pâte.
+
+Verser la pâte dans le moule, puis faire cuire environ 40 minutes à 180°C (plonger un couteau pour être sûr de la cuisson).
+
+Une fois cuit, retourner le gâteau dans une assiette et servir.","img/gateau-pommes-caramel-1.jpg, img/gateau-pommes-caramel-2.jpg, img/gateau-pommes-caramel-3.jpg",img/gateau-pommes-caramel-1_mini.jpg
