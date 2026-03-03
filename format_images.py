@@ -2,6 +2,7 @@
 import csv
 from PIL import Image
 import os
+import uuid
 
 # Function to replace every '.png' with '.jpg' in 'recettes.csv'
 def replace_png_with_jpg_in_csv(csv_path):
@@ -15,6 +16,35 @@ IMG_DIR = r"img"
 MAX_WIDTH = 2000
 ASPECT_RATIO = 2 / 1
 MINIATURE_DIVIDER = 4 # miniatures are 4 times smaller than original images
+
+def ensure_unique_ids(csv_path):
+    rows = []
+
+    with open(csv_path, 'r', encoding='utf-8', newline='') as f:
+        reader = csv.DictReader(f)
+        fieldnames = reader.fieldnames
+
+        # Assume first column is the ID column
+        id_field = fieldnames[0]
+
+        for row in reader:
+            recipe_id = row.get(id_field, '').strip()
+
+            # If ID is empty → generate a unique one
+            if not recipe_id:
+                new_id = str(uuid.uuid4())[:8]  # Short unique ID
+                print(f"Generating new ID: {new_id}")
+                row[id_field] = new_id
+
+            rows.append(row)
+
+    # Rewrite CSV with updated IDs
+    with open(csv_path, 'w', encoding='utf-8', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
+
+    print("ID check complete.")
 
 def process_miniatures(csv_path):
     rows = []
@@ -101,3 +131,4 @@ def process_changes():
 
     replace_png_with_jpg_in_csv('Recettes.csv')
     process_miniatures('Recettes.csv')
+    ensure_unique_ids('Recettes.csv')
