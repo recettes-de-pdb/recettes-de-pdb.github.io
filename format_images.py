@@ -17,7 +17,7 @@ MAX_WIDTH = 2000
 ASPECT_RATIO = 2 / 1
 MINIATURE_DIVIDER = 4 # miniatures are 4 times smaller than original images
 
-def ensure_unique_ids(csv_path):
+def reprocess_csv(csv_path):
     rows = []
 
     with open(csv_path, 'r', encoding='utf-8', newline='') as f:
@@ -27,8 +27,20 @@ def ensure_unique_ids(csv_path):
         # Assume first column is the ID column
         id_field = fieldnames[0]
 
+        # Assume img & mini columns are 9th and 10th columns
+        img_fied = fieldnames[9]
+        mini_field = fieldnames[10]
+
+        # Assume tag column is always fourth column
+        tags_field = fieldnames[4]
+
         for row in reader:
             recipe_id = row.get(id_field, '').strip()
+            has_recipe_img = (row.get(img_fied, '').strip() != "") or (row.get(mini_field, '').strip() != "")
+
+            # If has_recipe_img, add img tag
+            if has_recipe_img:
+                row[tags_field] = row.get(tags_field, '') + ", image"
 
             # If ID is empty → generate a unique one
             if not recipe_id:
@@ -94,7 +106,6 @@ def process_miniatures(csv_path):
             writer.writeheader()
             writer.writerows(rows)
 
-
 def process_changes():
     for filename in os.listdir(IMG_DIR):
         if filename.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.gif', '.webp')):
@@ -131,4 +142,4 @@ def process_changes():
 
     replace_png_with_jpg_in_csv('Recettes.csv')
     process_miniatures('Recettes.csv')
-    ensure_unique_ids('Recettes.csv')
+    reprocess_csv('Recettes.csv')
