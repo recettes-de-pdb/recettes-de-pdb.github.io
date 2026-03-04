@@ -40,7 +40,7 @@ def reprocess_csv(csv_path):
 
             # If has_recipe_img, add img tag
             if has_recipe_img:
-                row[tags_field] = row.get(tags_field, '') + ", Image"
+                row[tags_field] = row.get(tags_field, '') + ", Photo"
 
             # If ID is empty → generate a unique one
             if not recipe_id:
