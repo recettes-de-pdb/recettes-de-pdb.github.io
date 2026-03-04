@@ -169,6 +169,12 @@
 
         let activeTags = [];
 
+        const paginationDiv = document.getElementById("pagination");
+
+        let currentPageNb = 1;
+        const resultsPerPage = 64;
+        let currentFilteredResults = [];
+
         function extractAllTags() {
             if (!recipesData || recipesData.length === 0) return [];
             const tagsSet = new Set();
@@ -263,14 +269,17 @@
         const category = categoryFilter.value;
         const chef = chefFilter.value;
 
-        const filtered = recipesData.filter(recipe => {
-            // Ensure Tags is always an array
+        const recipesArray = Array.isArray(recipesData)
+            ? recipesData
+            : Object.values(recipesData);
+
+        const filtered = recipesArray.filter(recipe => {
+
             let tags = recipe.Tags;
             if (typeof tags === "string") {
-                // split CSV field into array (assuming separated by commas or semicolons)
                 tags = tags.split(/[,;]\s*/);
             } else if (!Array.isArray(tags)) {
-                tags = []; // fallback
+                tags = [];
             }
 
             const matchesSearch = recipe.Titre.toLowerCase().includes(searchTerm);
@@ -283,7 +292,51 @@
             return matchesSearch && matchesCategory && matchesChef && matchesTags;
         });
 
-        renderResults(filtered);
+        currentFilteredResults = filtered;
+        currentPageNb = 1; // Reset page on new filter
+        renderPaginatedResults();
+    }
+
+    function renderPaginatedResults() {
+        const start = (currentPageNb - 1) * resultsPerPage;
+        const end = start + resultsPerPage;
+
+        const paginatedList = currentFilteredResults.slice(start, end);
+
+        renderResults(paginatedList);
+        renderPagination();
+    }
+
+    function renderPagination() {
+        paginationDiv.innerHTML = "";
+
+        const totalPages = Math.ceil(currentFilteredResults.length / resultsPerPage);
+
+        if (totalPages <= 1) return;
+
+        for (let i = 1; i <= totalPages; i++) {
+            const btn = document.createElement("button");
+            btn.textContent = i;
+            btn.style.margin = "5px";
+            btn.style.padding = "8px 12px";
+            btn.style.borderRadius = "6px";
+            btn.style.border = "none";
+            btn.style.cursor = "pointer";
+            btn.style.fontFamily = "EB Garamond";
+
+            if (i === currentPageNb) {
+                btn.style.backgroundColor = "#7E5B34";
+                btn.style.color = "white";
+            }
+
+            btn.onclick = () => {
+                currentPageNb = i;
+                renderPaginatedResults();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            };
+
+            paginationDiv.appendChild(btn);
+        }
     }
 
 
