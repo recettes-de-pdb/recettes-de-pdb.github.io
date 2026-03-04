@@ -1,5 +1,5 @@
 ID,Titre,Cuistot,Type,Tags,Commentaires,Temps,Ingrédients,Recette,Images,Miniature
-tiramisu,Tiramisu,Ilia,Dessert,"Végétarien, Kiffeur, Gâteau, Froid, Chocolat, Café, Italie",Très bon tiramisu. Le dessert préféré d'Elio !,45 minutes,"5 oeufs
+tiramisu,Tiramisu,Ilia,Dessert,"Végétarien, Kiffeur, Gâteau, Froid, Chocolat, Café, Italie, image",Très bon tiramisu. Le dessert préféré d'Elio !,45 minutes,"5 oeufs
 135g de cassonade
 Vanille
 500g de mascarpone
@@ -15,7 +15,7 @@ Faire le café et attendre qu'il refroidisse.
 Monter le gâteau: alterner couche de crème (0,5cm) et couche de biscuits trempés dans le café (laisser les biscuits environ 5 secondes). Raper du chocolat à chaque couche de crème. Commencer et finir par une couche de crème.
 
 Laisser reposer une nuit au frigo.","img/tiramisu-1.jpg, img/tiramisu-2.jpg",img/tiramisu-1_mini.jpg
-tarte-abricots-pommes,Tarte Pommes-Abricots,Maxence,Dessert,"Végétarien, Tarte, Sans gluten, Léger, Goûter, Facile, Fruits, Été","Très bonne et assez facile à faire. Tarte très sympa en été ou quand il fait beau !
+tarte-abricots-pommes,Tarte Pommes-Abricots,Maxence,Dessert,"Végétarien, Tarte, Sans gluten, Léger, Goûter, Facile, Fruits, Été, image","Très bonne et assez facile à faire. Tarte très sympa en été ou quand il fait beau !
 Peut aussi être réalisée en tartelettes individuelles en faisant des petits ronds et en les repliant en triangle sur un oreillon.",1 heure,"# Compote de pommes
 1 pâte feuilletée
 6 pommes
@@ -41,7 +41,7 @@ Ajouter les 450g d'oreillons d'abricots. On peut ajouter du jaune d'oeuf au pinc
 
 Mettre au four pendant 40 minutes (retirer quand les oreillons commencent à noircir).
 ","img/tarte-abricots-1.jpg, img/tarte-abricots-2.jpg, img/tarte-abricots-3.jpg",img/tarte-abricots-1_mini.jpg
-tarte-lemon-curd,Tarte au Citron,Maxence,Dessert,"Tarte, Sans gluten, Froid, Végétarien, Fruits",Tarte citronnée très citronnée vraiment très citronnée. Elle est citronnée.,1h15,"# Pâte sablée citronnée
+tarte-lemon-curd,Tarte au Citron,Maxence,Dessert,"Tarte, Sans gluten, Froid, Végétarien, Fruits, image",Tarte citronnée très citronnée vraiment très citronnée. Elle est citronnée.,1h15,"# Pâte sablée citronnée
 165g de farine
 70g de sucre
 150g de beurre demi-sel
@@ -72,7 +72,7 @@ Verser sur la pâte à travers un tamis pour filtrer le zeste et obtenir une cr�
 Couvrir d'une feuille d'aluminium et faire cuire 12 minutes à 175°C.
 
 Mettre au frais 3h. On peut ensuite recouvrir de sucre glace pour décorer (plutôt juste avant de servir, autrement le sucre peut s'incorporer à la crème).","img/tarte-citron-01.jpg, img/tarte-citron-02.jpg, img/tarte-citron-03.jpg",img/tarte-citron-01_mini.jpg
-tarte-fraises-citron-basilic,Tarte Fraises Citron Basilic,Maxence,Dessert,"Végétarien, Kiffeur, Anniversaire, Tarte, Bretagne, Compliqué, Fruits, Été",Groooooosse tarte très bonne. Faut mettre plein de basilic sinon on le sent pas. Quand je l'ai faite Méliné l'a même pas goûtée ma vie de oim j'ai toujours le seum pourquoi ma ptite soeur elle m'aime pas ?,2 heures,"Fraises gariguettes
+tarte-fraises-citron-basilic,Tarte Fraises Citron Basilic,Maxence,Dessert,"Végétarien, Kiffeur, Anniversaire, Tarte, Bretagne, Compliqué, Fruits, Été, image",Groooooosse tarte très bonne. Faut mettre plein de basilic sinon on le sent pas. Quand je l'ai faite Méliné l'a même pas goûtée ma vie de oim j'ai toujours le seum pourquoi ma ptite soeur elle m'aime pas ?,2 heures,"Fraises gariguettes
 # Sablé breton
 3 jaunes d'oeufs
 130g de sucre
@@ -124,7 +124,7 @@ Déposer le mélange dans une casserole et faire cuire 2 à 3 minutes. La crème
 Ajouter la crème pâtissière au citron.
 
 Ajouter les fraises fraîches par dessus.","img/tarte-fraises-citron-basilic-1.jpg, img/tarte-fraises-citron-basilic-2.jpg, img/tarte-fraises-citron-basilic-3.jpg",img/tarte-fraises-citron-basilic-1_mini.jpg
-scofa-fruits-rouges,Scofa aux fruits rouges,Maxence,Dessert,"Kiffeur, Anniversaire, Gâteau, Froid, Compliqué, Fruits, France",Plus ou moins le gâteau de picard. Mais pas tout à fait. Les rageux diront que c'est pas du tout le même et qu'il est vachement plus lourd. Moi jdis c'est mieux comme ça. Au moins on est originaux ici.,3h15,"# Gâteau aux amandes
+scofa-fruits-rouges,Scofa aux fruits rouges,Maxence,Dessert,"Kiffeur, Anniversaire, Gâteau, Froid, Compliqué, Fruits, France, image",Plus ou moins le gâteau de picard. Mais pas tout à fait. Les rageux diront que c'est pas du tout le même et qu'il est vachement plus lourd. Moi jdis c'est mieux comme ça. Au moins on est originaux ici.,3h15,"# Gâteau aux amandes
 210g de blancs d'oeufs
 150g de sucre
 120g d'amandes en poudre
@@ -181,7 +181,7 @@ Une fois que la pâte a refroidi, couper en deux, puis étaler la le coulis de f
 Étaler la crème au beurre par dessus la couche de coulis. 
 
 Poser la deuxième couche de gâteau par dessus la crème, puis mettre au frais. Juste avant de servir, saupoudrer de sucre glace.","img/sfofa-1.jpg, img/sfofa-2.jpg, img/sfofa-3.jpg",img/sfofa-2_mini.jpg
-gigot-7-heures-ottolenghi,Gigot de 7 heures d'Ottolenghi,Kaki,Plat,"Anniversaire, Viande, Légumes, Chaud, Moyen-Orient",Plein d'épices qu'on mange pas d'habitude !,1 heure,"# Marinade
+gigot-7-heures-ottolenghi,Gigot de 7 heures d'Ottolenghi,Kaki,Plat,"Anniversaire, Viande, Légumes, Chaud, Moyen-Orient, image",Plein d'épices qu'on mange pas d'habitude !,1 heure,"# Marinade
 2 citrons bio
 6 gousses d'ail
 1 c.a.s. de paprika
@@ -225,7 +225,7 @@ Aneth","Mélanger le mascarpone et le fromage ail et fines herbes. Ajouter l'ane
 Rouler, puis couper en bouchées individuelles.
 
 Conserver au frais.",,
-samossa-saumon,Samossas au saumon,Nadja,Entrée,"Apéro, Poisson, Léger, Moyen-Orient",Les meilleurs types de samossas.,45 minutes,"2 pavés de saumon/rillettes de saumon
+samossa-saumon,Samossas au saumon,Nadja,Entrée,"Apéro, Poisson, Léger, Moyen-Orient, image",Les meilleurs types de samossas.,45 minutes,"2 pavés de saumon/rillettes de saumon
 1 oignon
 2 échalotes
 Huile d'olive
@@ -244,8 +244,8 @@ Couper les feuilles de brick en deux.
 POUR CHAQUE DEMI-FEUILLE: Plier en deux pour obtenir une bande. Déposer une noix de farce et plier pour obtenir un triangle.
 
 Une fois que les samossas sont prêt, les faire frire dans une poêle avec de l'huile de tournesol jusqu'à obtenir des samossas bien dorés. On peut aussi les faire au four 10-15 minutes à 200°C, si on veut un résultat plus sain.","img/samossa-1.jpg, img/samossa-2.jpg, img/samossa-3.jpg",img/samossa-1_mini.jpg
-boulettes-viande-moutarde,Boulettes de viande & sauce à la moutarde [INC],Méliné,Plat,"Viande, Chaud, Légumes",A FAIRE,1 heure,A FAIRE,A FAIRE,"img/boulettes-viande-1.jpg, img/boulettes-viande-2.jpg, img/boulettes-viande-3.jpg",img/boulettes-viande-2_mini.jpg
-gateau-pommes-ancienne,Gâteau aux pommes à l'ancienne,Maxence,Dessert,"Végétarien, Gâteau, Goûter, Réconfortant, Facile, Fruits","Fait avec amour, gentillesse, passion, et les restes du fond du placard. Ptit tips, retirer les asticots des pommes c'est meilleur. Mais sinon réconfortant de ouf.",30 minutes,"100g de beurre mou
+boulettes-viande-moutarde,Boulettes de viande & sauce à la moutarde [INC],Méliné,Plat,"Viande, Chaud, Légumes, image",A FAIRE,1 heure,A FAIRE,A FAIRE,"img/boulettes-viande-1.jpg, img/boulettes-viande-2.jpg, img/boulettes-viande-3.jpg",img/boulettes-viande-2_mini.jpg
+gateau-pommes-ancienne,Gâteau aux pommes à l'ancienne,Maxence,Dessert,"Végétarien, Gâteau, Goûter, Réconfortant, Facile, Fruits, image","Fait avec amour, gentillesse, passion, et les restes du fond du placard. Ptit tips, retirer les asticots des pommes c'est meilleur. Mais sinon réconfortant de ouf.",30 minutes,"100g de beurre mou
 100g de sucre
 200g de farine
 1 sachet de levure chimique
@@ -260,7 +260,7 @@ Ajouter les oeufs battus. Incorporer ensuite la farine et la levure mélangées.
 Verser la préparation dans un moule beurré ou tapissé de papier cuisson, d'environ 24cm de diamètre.
 
 Faire cuire 30 à 40 minutes à 180°C, puis déguster tiède ou froid.","img/gateau-pommes-1.jpg, img/gateau-pommes-2.jpg, img/gateau-pommes-3.jpg",img/gateau-pommes-2_mini.jpg
-tarte-oignons,Tarte tatin aux oignons,Kaki,Plat,"Végétarien, Tarte, Légumes, Chaud, Fromage",A FAIRE,30 minutes,"6 oignons
+tarte-oignons,Tarte tatin aux oignons,Kaki,Plat,"Végétarien, Tarte, Légumes, Chaud, Fromage, image",A FAIRE,30 minutes,"6 oignons
 Chèvre
 1 pâte feuilletée
 Beurre/Huile d'olive
@@ -346,10 +346,10 @@ Sel/Poivre","Tailler le butternut en lamelles. Ciseler l'oignon. Dorer l'oignon 
 Plonger dans l'eau puis ajouter le bouillon, sel, la noix de muscade, le cumin. Faire mijoter 50 minutes.
 
 Une fois que les légumes sont cuits, mixer et ajouter la crème fraîche.",,
-paella,Paëlla [INC],Maxence,Plat,"Riz, Kiffeur, Poisson, Chaud, Été",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/paella-1.jpg, img/paella-2.jpg, img/paella-3.jpg",img/paella-1_mini.jpg
-pancakes,Pancakes [INC],Nadja,Dessert,"Végétarien, Brunch, Snack, Anglo-saxon, Chaud, Facile",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/pancakes-1.jpg, img/pancakes-2.jpg, img/pancakes-3.jpg",img/pancakes-1_mini.jpg
-croque-monsieur,Croque-monsieur [INC],Méliné,Plat,"Sandwich, France, Viande, Chaud, Fromage, Été",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/croque-monsieur-3.jpg, img/croque-monsieur-1.jpg, img/croque-monsieur-2.jpg",img/croque-monsieur-3_mini.jpg
-gateau-yaourt-pommes,Gâteau au yaourt aux pommes,Maxence,Dessert,"Végétarien, Gâteau, Goûter, Réconfortant, Automne, Fruits",Ambience goûter ça.,45 minutes,"1 yaourt nature
+paella,Paëlla [INC],Maxence,Plat,"Riz, Kiffeur, Poisson, Chaud, Été, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/paella-1.jpg, img/paella-2.jpg, img/paella-3.jpg",img/paella-1_mini.jpg
+pancakes,Pancakes [INC],Nadja,Dessert,"Végétarien, Brunch, Snack, Anglo-saxon, Chaud, Facile, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/pancakes-1.jpg, img/pancakes-2.jpg, img/pancakes-3.jpg",img/pancakes-1_mini.jpg
+croque-monsieur,Croque-monsieur [INC],Méliné,Plat,"Sandwich, France, Viande, Chaud, Fromage, Été, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/croque-monsieur-3.jpg, img/croque-monsieur-1.jpg, img/croque-monsieur-2.jpg",img/croque-monsieur-3_mini.jpg
+gateau-yaourt-pommes,Gâteau au yaourt aux pommes,Maxence,Dessert,"Végétarien, Gâteau, Goûter, Réconfortant, Automne, Fruits, image",Ambience goûter ça.,45 minutes,"1 yaourt nature
 2 pots de sucre
 3 pots de farine
 1/2 pot d'huile de tournesol
@@ -365,7 +365,7 @@ Ajouter la farine, le sucre, l'huile, les oeufs, la levure et la vanille. Mélan
 Éplucher et couper les pommes en morceaux, puis ajouter à la pâte à gâteau.
 
 Beurrer ensuite le moule à gâteau, y ajouter la pâte et faire cuire environ 30 minutes à 180°C. Déguster ensuite tiède ou froid.","img/gateau-yaourt-pommes-2.jpg, img/gateau-yaourt-pommes-1.jpg, img/gateau-yaourt-pommes-3.jpg",img/gateau-yaourt-pommes-2_mini.jpg
-cookies,Cookies,Maxence,Dessert,"Anglo-saxon, Goûter, Réconfortant, Facile, Chocolat, Hiver",On va pas se mentir c'est la recette de Bernard hein.,45 minutes,"75g de sucre
+cookies,Cookies,Maxence,Dessert,"Anglo-saxon, Goûter, Réconfortant, Facile, Chocolat, Hiver, image",On va pas se mentir c'est la recette de Bernard hein.,45 minutes,"75g de sucre
 100g de vergeoise blonde
 125g de beurre demi-sel
 1 c.a.c. d'extrait de vanille liquide
@@ -383,8 +383,8 @@ Ajouter les noix hâchées et le chocolat en pépites.
 Faire des boules de 60g (cookies normaux) ou 165g (cookies géants). 
 
 Faire cuire 10 minutes à 180°C (cookies normaux) ou 15-20 minutes à 200°C (cookies géants).","img/cookies-1.jpg, img/cookies-2.jpg, img/cookies-3.jpg",img/cookies-1_mini.jpg
-layer-cake-fruits-rouges,Layer cake aux fruits rouges [INC],Maxence,Dessert,"Anglo-saxon, Anniversaire, Kiffeur, Gâteau, Froid, Fruits, Printemps, Compliqué",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/layer-cake-fruits-rouges-1.jpg, img/layer-cake-fruits-rouges-2.jpg, img/layer-cake-fruits-rouges-3.jpg",img/layer-cake-fruits-rouges-1_mini.jpg
-charlemagne,Charlemagne,Méliné,Dessert,"France, Gâteau, Chocolat","Un peu une brique, mais une bonne brique.",1h15,"# Génoise
+layer-cake-fruits-rouges,Layer cake aux fruits rouges [INC],Maxence,Dessert,"Anglo-saxon, Anniversaire, Kiffeur, Gâteau, Froid, Fruits, Printemps, Compliqué, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/layer-cake-fruits-rouges-1.jpg, img/layer-cake-fruits-rouges-2.jpg, img/layer-cake-fruits-rouges-3.jpg",img/layer-cake-fruits-rouges-1_mini.jpg
+charlemagne,Charlemagne,Méliné,Dessert,"France, Gâteau, Chocolat, image","Un peu une brique, mais une bonne brique.",1h15,"# Génoise
 125g de beurre doux
 520g de sucre
 520g de farine
@@ -421,8 +421,8 @@ Porter l'eau et le sucre à ébullition, puis réserver.
 Imbiber les rectangles de génoise au fur et à mesure, puis les empiler en étalant à chaque fois une couche de crème au beurre. 
 
 Terminer par une couche de pâte d'amandes, et décorer avec du sirop de chocolat comme sur la photo.","img/charlemagne-1.jpg, img/charlemagne-2.jpg, img/charlemagne-3.jpg",img/charlemagne-1_mini.jpg
-tarte-tatin-tomates,Tarte tatin à la tomate [INC],Maxence,Entrée,"Végétarien, Tarte, Légumes, Facile",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/tarte-tatin-tomate-3.jpg, img/tarte-tatin-tomate-1.jpg, img/tarte-tatin-tomate-2.jpg",img/tarte-tatin-tomate-3_mini.jpg
-cake-ultime-citron,Cake ultime au citron,Carla,Dessert,"Kiffeur, Gâteau, Goûter, Printemps, Fruits","Cake validé par l'ensemble des collègues. Devenu un classique de réunion d'équipe.
+tarte-tatin-tomates,Tarte tatin à la tomate [INC],Maxence,Entrée,"Végétarien, Tarte, Légumes, Facile, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/tarte-tatin-tomate-3.jpg, img/tarte-tatin-tomate-1.jpg, img/tarte-tatin-tomate-2.jpg",img/tarte-tatin-tomate-3_mini.jpg
+cake-ultime-citron,Cake ultime au citron,Carla,Dessert,"Kiffeur, Gâteau, Goûter, Printemps, Fruits, image","Cake validé par l'ensemble des collègues. Devenu un classique de réunion d'équipe.
 C'est citronné, c'est moelleux, il ny aura pas de reste.  ",Le temps qu'il faut,"200g de sucre
 120g de beurre fondu
 Le zeste d'un citron jaune
@@ -452,20 +452,20 @@ Mélanger le sucre glace avec le jus de citron.
 Quand le cake est froid,le déballer et verser le glaçage dessus. Lisser.
 
 Remettre au four 8 min à 100°C pour le faire sécher. ","img/cake-ultime-citron-1.jpg, img/cake-ultime-citron-2.jpg, img/cake-ultime-citron-3.jpg, img/cake-ultime-citron-4.jpg",img/cake-ultime-citron-1_mini.jpg
-taboule,Taboulé [INC],Maxence,Entrée,"Moyen-Orient, Végétarien, Vegan, Facile, Froid, Léger, Légumes",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/taboule-1.jpg, img/taboule-2.jpg, img/taboule-3.jpg",img/taboule-1_mini.jpg
-tarte-fraises,Tarte aux fraises [INC],Méliné,Dessert,"Végétarien, Tarte, Bretagne, Froid, Fruits, Anniversaire",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/tarte-fraises-1.jpg, img/tarte-fraises-2.jpg, img/tarte-fraises-3.jpg",img/tarte-fraises-1_mini.jpg
-flammekueche,Flammekueches [INC],Kaki,Plat,"Été, Facile, Chaud, Réconfortant, Viande",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/flammekueche-2.jpg, img/flammekueche-1.jpg, img/flammekueche-3.jpg",img/flammekueche-2_mini.jpg
-assassin,Assassin [INC],Carla,Dessert,"Kiffeur, Gâteau, Chocolat, Automne",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/assassin-1.jpg, img/assassin-2.jpg, img/assassin-3.jpg",img/assassin-2_mini.jpg
-buche-glacee-framboises,Bûche glacée à la framboise [INC],Nadja,Dessert,"Hiver, Froid, Fruits, Chocolat, Gâteau",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/buche-glacee-framboises-1.jpg, img/buche-glacee-framboises-2.jpg, img/buche-glacee-framboises-3.jpg",img/buche-glacee-framboises-3_mini.jpg
-buche-tiramisu,Bûche glacée tiramisu [INC],Nadja,Dessert,"Hiver, Café, Chocolat, Froid, Gâteau",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/buche-tiramisu-1.jpg, img/buche-tiramisu-2.jpg, img/buche-tiramisu-3.jpg",img/buche-tiramisu-2_mini.jpg
-gateau-araignee,Gâteau Araignée [INC],Méliné,Dessert,"Café, Automne, Gâteau, Stylé",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/gateau-araignee-1.jpg, img/gateau-araignee-2.jpg, img/gateau-araignee-3.jpg",img/gateau-araignee-2_mini.jpg
-macarons-chocolats,Macarons au chocolat [INC],Méliné,Dessert,"Gâteau, Froid, Chocolat, Compliqué, France",A FAIRE,A FAIRE,A FAIRE,A FAIRE,img/macarons-chocolats-1.jpg,img/macarons-chocolats-1_mini.jpg
-macarons-citron,Macarons au citron [INC],Méliné,Dessert,"Gâteau, France, Froid, Compliqué, Fruits",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/macarons-citron-1.jpg, img/macarons-citron-2.jpg",img/macarons-citron-2_mini.jpg
-poutine,Poutine,Kaki,Plat,"Kiffeur, Anglo-saxon, Viande, Fast Food, Chaud, Hiver",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/poutine-1.jpg, img/poutine-2.jpg, img/poutine-3.jpg",img/poutine-3_mini.jpg
-riz-lezgumes,Riz aux légumes [INC],Maxence,Plat,"Étudiant, Vegan, Végétarien, Légumes, Chaud, Facile, Riz",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/riz-lezgumes-1.jpg, img/riz-lezgumes-2.jpg, img/riz-lezgumes-3.jpg",img/riz-lezgumes-1_mini.jpg
-saucisse-portobellos,Saucisses aux portobellos [INC],Maxence,Plat,"Viande, Étudiant, Facile, Chaud, Réconfortant",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/saucisse-portobellos-1.jpg, img/saucisse-portobellos-2.jpg, img/saucisse-portobellos-3.jpg",img/saucisse-portobellos-1_mini.jpg
-saumon-echalottes,Saumon aux échalottes [INC],Méliné,Plat,"Poisson, Chaud, Facile, Léger",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/saumon-echalottes-1.jpg, img/saumon-echalottes-2.jpg, img/saumon-echalottes-3.jpg",img/saumon-echalottes-1_mini.jpg
-saumon-kiwi,Saumon au kiwi et aux pommes [INC],Maxence,Plat,"Anniversaire, Poisson, Légumes, Stylé, Chaud",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/saumon-kiwi-1.jpg, img/saumon-kiwi-2.jpg, img/saumon-kiwi-3.jpg, img/saumon-kiwi-4.jpg",img/saumon-kiwi-4_mini.jpg
+taboule,Taboulé [INC],Maxence,Entrée,"Moyen-Orient, Végétarien, Vegan, Facile, Froid, Léger, Légumes, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/taboule-1.jpg, img/taboule-2.jpg, img/taboule-3.jpg",img/taboule-1_mini.jpg
+tarte-fraises,Tarte aux fraises [INC],Méliné,Dessert,"Végétarien, Tarte, Bretagne, Froid, Fruits, Anniversaire, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/tarte-fraises-1.jpg, img/tarte-fraises-2.jpg, img/tarte-fraises-3.jpg",img/tarte-fraises-1_mini.jpg
+flammekueche,Flammekueches [INC],Kaki,Plat,"Été, Facile, Chaud, Réconfortant, Viande, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/flammekueche-2.jpg, img/flammekueche-1.jpg, img/flammekueche-3.jpg",img/flammekueche-2_mini.jpg
+assassin,Assassin [INC],Carla,Dessert,"Kiffeur, Gâteau, Chocolat, Automne, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/assassin-1.jpg, img/assassin-2.jpg, img/assassin-3.jpg",img/assassin-2_mini.jpg
+buche-glacee-framboises,Bûche glacée à la framboise [INC],Nadja,Dessert,"Hiver, Froid, Fruits, Chocolat, Gâteau, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/buche-glacee-framboises-1.jpg, img/buche-glacee-framboises-2.jpg, img/buche-glacee-framboises-3.jpg",img/buche-glacee-framboises-3_mini.jpg
+buche-tiramisu,Bûche glacée tiramisu [INC],Nadja,Dessert,"Hiver, Café, Chocolat, Froid, Gâteau, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/buche-tiramisu-1.jpg, img/buche-tiramisu-2.jpg, img/buche-tiramisu-3.jpg",img/buche-tiramisu-2_mini.jpg
+gateau-araignee,Gâteau Araignée [INC],Méliné,Dessert,"Café, Automne, Gâteau, Stylé, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/gateau-araignee-1.jpg, img/gateau-araignee-2.jpg, img/gateau-araignee-3.jpg",img/gateau-araignee-2_mini.jpg
+macarons-chocolats,Macarons au chocolat [INC],Méliné,Dessert,"Gâteau, Froid, Chocolat, Compliqué, France, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,img/macarons-chocolats-1.jpg,img/macarons-chocolats-1_mini.jpg
+macarons-citron,Macarons au citron [INC],Méliné,Dessert,"Gâteau, France, Froid, Compliqué, Fruits, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/macarons-citron-1.jpg, img/macarons-citron-2.jpg",img/macarons-citron-2_mini.jpg
+poutine,Poutine,Kaki,Plat,"Kiffeur, Anglo-saxon, Viande, Fast Food, Chaud, Hiver, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/poutine-1.jpg, img/poutine-2.jpg, img/poutine-3.jpg",img/poutine-3_mini.jpg
+riz-lezgumes,Riz aux légumes [INC],Maxence,Plat,"Étudiant, Vegan, Végétarien, Légumes, Chaud, Facile, Riz, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/riz-lezgumes-1.jpg, img/riz-lezgumes-2.jpg, img/riz-lezgumes-3.jpg",img/riz-lezgumes-1_mini.jpg
+saucisse-portobellos,Saucisses aux portobellos [INC],Maxence,Plat,"Viande, Étudiant, Facile, Chaud, Réconfortant, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/saucisse-portobellos-1.jpg, img/saucisse-portobellos-2.jpg, img/saucisse-portobellos-3.jpg",img/saucisse-portobellos-1_mini.jpg
+saumon-echalottes,Saumon aux échalottes [INC],Méliné,Plat,"Poisson, Chaud, Facile, Léger, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/saumon-echalottes-1.jpg, img/saumon-echalottes-2.jpg, img/saumon-echalottes-3.jpg",img/saumon-echalottes-1_mini.jpg
+saumon-kiwi,Saumon au kiwi et aux pommes [INC],Maxence,Plat,"Anniversaire, Poisson, Légumes, Stylé, Chaud, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/saumon-kiwi-1.jpg, img/saumon-kiwi-2.jpg, img/saumon-kiwi-3.jpg, img/saumon-kiwi-4.jpg",img/saumon-kiwi-4_mini.jpg
 truffes-chocolat,Truffes au chocolat,Ilia,Dessert,"Froid, Chocolat, Été, Facile, Végétarien, Goûter",Ambiance goûter noël.,20 minutes,"170g de crème liquide entière
 200g de chocolat noir
 30g de beurre salé
@@ -483,8 +483,8 @@ Faire des petites boules à partir de la préparation, puis les rouler dans le c
 curry,Curry [INC],Kaki,Plat,"Anniversaire, Viande, Riz, Chaud",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
 courgettes-farcies,Courgettes farcies [INC],Kaki,Plat,"Riz, Légumes, Viande, Chaud",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
 panna-cotta,Panna cotta [INC],Kaki,Dessert,"Froid, Italie, Fromage, Fruits",A FAIRE,A FAIRE,A FAIRE,A FAIRE,,
-boeuf-bourguignon,Boeuf bourguignon [INC],Kaki,Plat,"Viande, France, Chaud, Facile",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/bourguignon-1.jpg, img/bourguignon-2.jpg, img/bourguignon-3.jpg, img/bourguignon-4.jpg",img/bourguignon-1_mini.jpg
-tourte-viande,Tourte à la viande,Maxence,Plat,"Tarte, Anglo-saxon, Viande, Légumes, Réconfortant, Chaud, Automne","Très bonne tourte, mais faut mettre vla des épices.",2 heures,"1 pâte feuilletée
+boeuf-bourguignon,Boeuf bourguignon [INC],Kaki,Plat,"Viande, France, Chaud, Facile, image",A FAIRE,A FAIRE,A FAIRE,A FAIRE,"img/bourguignon-1.jpg, img/bourguignon-2.jpg, img/bourguignon-3.jpg, img/bourguignon-4.jpg",img/bourguignon-1_mini.jpg
+tourte-viande,Tourte à la viande,Maxence,Plat,"Tarte, Anglo-saxon, Viande, Légumes, Réconfortant, Chaud, Automne, image","Très bonne tourte, mais faut mettre vla des épices.",2 heures,"1 pâte feuilletée
 # Pâte brisée
 300g de farine
 150g de beurre
@@ -526,7 +526,7 @@ Ajouter ensuite les 220g de petits pois et les 800g de boeuf haché. Faire cuire
 Étaler la pâte brisée dans un moule à tarte plutôt haut. Ajouter ensuite la farce. Par dessus, étaler la pâte feuilletée, en la mélangeant bien sur les bords à la pâte brisée pour éviter qu'elle ne se détache.
 
 Faire cuire 40 minutes à 190°C.","img/meat-pie-1.jpg, img/meat-pie-2.jpg, img/meat-pie-3.jpg",img/meat-pie-1_mini.jpg
-tarte-pommes,Tarte aux pommes,Maxence,Dessert,"Tarte, Fruits, Facile",Boh c'est une tarte aux pommes hein.,1 heure,"8 pommes
+tarte-pommes,Tarte aux pommes,Maxence,Dessert,"Tarte, Fruits, Facile, image",Boh c'est une tarte aux pommes hein.,1 heure,"8 pommes
 Cannelle
 Sucre
 Beurre salé
@@ -542,8 +542,8 @@ Dans un saladier, couper en petits dés les 250g de beurre et le mélanger à la
 Étaler la pâte dans un moule à tarte. Étaler une base de compote par dessus, puis ajouter les 3 pommes restantes, épluchées et coupées en tranches fines.
 
 Faire cuire au four à 180°C pendant 30-45 minutes. Déguster chaud ou froid.","img/tarte-pommes-2.jpg, img/tarte-pommes-1.jpg, img/tarte-pommes-3.jpg",img/tarte-pommes-2_mini.jpg
-parmentier-canard,Parmentier de Canard [INC],Maxence,Plat,"Chaud, Hiver, Facile, France, Viande, Pommes de terre","Meilleur que le hachis parmentier normal, pas forcément très léger par contre.",1 heure,A FAIRE,A FAIRE,"img/parmentier-canard-1.jpg, img/parmentier-canard-2.jpg, img/parmentier-canard-3.jpg",img/parmentier-canard-1_mini.jpg
-cheesecake-double-citrons,Cheesecake double citron,Maxence,Dessert,"Végétarien, Kiffeur, Gâteau, Goûter, Froid, Réconfortant, Fromage, Automne, Fruits, Anglo-saxon","Chargé en citron, mais ça se compense avec plein de coulis tkt.",1 heure,"# Coulis de framboises
+parmentier-canard,Parmentier de Canard [INC],Maxence,Plat,"Chaud, Hiver, Facile, France, Viande, Pommes de terre, image","Meilleur que le hachis parmentier normal, pas forcément très léger par contre.",1 heure,A FAIRE,A FAIRE,"img/parmentier-canard-1.jpg, img/parmentier-canard-2.jpg, img/parmentier-canard-3.jpg",img/parmentier-canard-1_mini.jpg
+cheesecake-double-citrons,Cheesecake double citron,Maxence,Dessert,"Végétarien, Kiffeur, Gâteau, Goûter, Froid, Réconfortant, Fromage, Automne, Fruits, Anglo-saxon, image","Chargé en citron, mais ça se compense avec plein de coulis tkt.",1 heure,"# Coulis de framboises
 600g de framboises congelées
 110g de sucre
 3 c.a.s. d'eau
@@ -623,7 +623,7 @@ Couper la génoise en deux. Laisser la partie supérieure sur le côté.
 Mélanger les mangues coupées en petits cubes avec la crème, puis étaler le tout sur la génoise.
 
 Poser la partie supérieure de la génoise sur la crème et laisser le tout reposer au réfrigirateur.",,
-comete-noix-chocolat,Comète Noix Chocolat,Lou,Dessert,"Végétarien, Kiffeur, Gâteau, Froid, Compliqué, Chocolat, Stylé, Hiver, Noix",Très très bon mais faut poser un rtt pour le faire. On l'a fait au nouvel an :),5 heures,"# Brownie
+comete-noix-chocolat,Comète Noix Chocolat,Lou,Dessert,"Végétarien, Kiffeur, Gâteau, Froid, Compliqué, Chocolat, Stylé, Hiver, Noix, image",Très très bon mais faut poser un rtt pour le faire. On l'a fait au nouvel an :),5 heures,"# Brownie
 90g de beurre doux
 70g de beurre salé
 210g de sucre
@@ -683,7 +683,7 @@ Ajouter la mousse sur le gâteau et laisser prendre au moins 4 heures au réfrig
 
 Pour la décoration, faire fondre du chocolat, puis l'étaler dans 2 moules en forme de demi-sphères, et sur du papier guitare disposé dans un moule à bûche. Une fois le chocolat refroidi, former une sphère avec les 2 demi-sphères (on peut mettre les restes du gateau dedans), et briser le chocolat sur le papier guitare en petits morceaux. Saupoudrer la mousse au chocolat de cacao non sucré. Poser ensuite la sphère au milieu du gateau, et disposer les éclats de chocolat autour.","img/comete-noix-chocolat-1.jpg, img/comete-noix-chocolat-2.jpg
 ",img/comete-noix-chocolat-1_mini.jpg
-e0636d2f,Verrine Asperge Mascarpone,Carla,Entrée,"Anniversaire, Apéro, Réconfortant, Facile, Stylé",Ca fait genre c'est classe alors que c'est ultra simple. ,15 minutes,"500g d'asperges en bocal
+b053e2e6,Verrine Asperge Mascarpone,Carla,Entrée,"Anniversaire, Apéro, Réconfortant, Facile, Stylé",Ca fait genre c'est classe alors que c'est ultra simple. ,15 minutes,"500g d'asperges en bocal
 250g de mascarpone
 1 pot d'oeuf de lump
 1 oeuf
@@ -692,10 +692,10 @@ Mixer les asperges avec le mascarpone, puis y incorporer l'oeuf
 Saler, poivrer 
 Remplir les verrines avec le mélange. 
 Déposer sur le dessus des oeufs de lump.",,
-b6ab919e,Tarte au citron meringuée,Carla,Dessert,"Anniversaire, Tarte, France, Été, Automne, Hiver, Printemps, Stylé","La meringue est non négociable. Si tu veux une recette sans meringue, il y en a une sur le site. ",,,,,
-17480d97,Cheesecake,Carla,Dessert,,,,,,,
-59f4f3a7,Sablés aux noisettes,Carla,Autre,"Gâteau, Goûter, Facile",C'est juste bon. Le secret c'est la fleur de sel. C'est pas facultatif. ,,,,,
-7aa24b71,Pancakes américains,Carla,Autre,Brunch,Le classique de Vitry le week-end,,"6/7 pancakes:
+41639011,Tarte au citron meringuée,Carla,Dessert,"Anniversaire, Tarte, France, Été, Automne, Hiver, Printemps, Stylé","La meringue est non négociable. Si tu veux une recette sans meringue, il y en a une sur le site. ",,,,,
+bd2327d0,Cheesecake,Carla,Dessert,,,,,,,
+0c788749,Sablés aux noisettes,Carla,Autre,"Gâteau, Goûter, Facile",C'est juste bon. Le secret c'est la fleur de sel. C'est pas facultatif. ,,,,,
+45a2f3c8,Pancakes américains,Carla,Autre,Brunch,Le classique de Vitry le week-end,,"6/7 pancakes:
 170g de farine
 50g de sucre
 1 sachet de levure chimique
@@ -713,7 +713,7 @@ Le mélange doit être encore grumeleux. Laisser reposer 15 min.
 Dans une poele chaude (feu moyen / doux) avec un peu de beurre, verser une petute louche de pâte. Laiseer cuire jusqu'à l'apparition de petites bulles à la surface puis retourner les panacakes. Laisser cuire encore 1 ou 2 minutes. 
 
 Servir chaud ",,
-9fca4a55,Panna Cotta à la française,Carla,Dessert,"France, Fruits, Italie, Facile","Oui je sais c'est pas l'original, mais pour ceux qui n'aiment pas le goût des oeufs c'est cool et en plus c'est plus rapide à faire.
+ad18fe74,Panna Cotta à la française,Carla,Dessert,"France, Fruits, Italie, Facile","Oui je sais c'est pas l'original, mais pour ceux qui n'aiment pas le goût des oeufs c'est cool et en plus c'est plus rapide à faire.
 La recette avec les oeufs est sur le site. ",,"50cl de crème liquide
 3 feuilles de gélatine
 50g de sucre
@@ -733,8 +733,8 @@ Faire bouillir doucement l'ensemble des ingrédients.
 Passer au chinois
 
 Verser le coulis sur la Panna Cotta",,
-84533409,Foccacia,Carla,Autre,"Kiffeur, Italie",,,,,,
-bb5d8acc,Pain de mie,Carla,Autre,France,"Depuis que j'ai commencé à en faire, je suis apparemment obligé d'en faire tous les week-end. ",Long (un peu mais en vrai ça va),"500g de farine T45
+b132c8d6,Foccacia,Carla,Autre,"Kiffeur, Italie",,,,,,
+95f0c243,Pain de mie,Carla,Autre,France,"Depuis que j'ai commencé à en faire, je suis apparemment obligé d'en faire tous les week-end. ",Long (un peu mais en vrai ça va),"500g de farine T45
 20g de sucre
 10g de sel
 20g de levure fraiche
@@ -755,9 +755,9 @@ Au bout de 30 min, dégazer la pâte, la disposer en long en la rabattant sur el
 Enfourner dans un moule à 220°C et baisser à 180°C. Cuire 45 minutes. Attention le moule doit être couvert dans le four sinon ca va déborder un peu et surtout la texture sera un peu différente.
 
 Une fois cuit et refroidi, tu coupes en tranches, et tu congèles. Ca se décongèle parfaitement au grill pain. ",,
-d2cfe12a,Brioche moelleuse et filante,Carla,Autre,France,,,,,,
-6756454d,Gaufres liégroises,Carla,Autre,"Kiffeur, Réconfortant, Brunch, Goûter",Bon en vrai c'est la recette de Manuel mais bon il n' est pas belge donc est-ce qu'on peut vraiment mettre son nom? Toujours est-il que les graufres sont bonnes.,,,,,
-521be843,Gâteau aux pommes mascarpone,Carla,Dessert,"Goûter, Fruits, Automne, Réconfortant",C'est réconfortant pour le goûter avec un thé bien chaud. Il manque juste le feu dans la cheminée. ,,"3 pommes
+db3818a8,Brioche moelleuse et filante,Carla,Autre,France,,,,,,
+87c11130,Gaufres liégroises,Carla,Autre,"Kiffeur, Réconfortant, Brunch, Goûter",Bon en vrai c'est la recette de Manuel mais bon il n' est pas belge donc est-ce qu'on peut vraiment mettre son nom? Toujours est-il que les graufres sont bonnes.,,,,,
+b0c2c0a2,Gâteau aux pommes mascarpone,Carla,Dessert,"Goûter, Fruits, Automne, Réconfortant",C'est réconfortant pour le goûter avec un thé bien chaud. Il manque juste le feu dans la cheminée. ,,"3 pommes
 3 oeufs 
 100g de sucre
 250g de mascarpone
@@ -770,7 +770,7 @@ Peler les pommes, les couper en 6 et les répartir sur la pâte.
 
 Cuire 30 min à 180°C
 Soupoudrer de sucre glace une fois tiède.",,
-e173223b,Tarte au chocolat,Carla,Dessert,"Facile, Anniversaire, Tarte, Chocolat, Kiffeur",Le chocolat c'est la vie,"20 min de préparation 
+68b39502,Tarte au chocolat,Carla,Dessert,"Facile, Anniversaire, Tarte, Chocolat, Kiffeur",Le chocolat c'est la vie,"20 min de préparation 
 20 min de cuisson 
 3h au frais","Pâte sucrée : 
 140g de beurre
@@ -800,7 +800,7 @@ Bien mélanger.
 
 # Montage
 Verser la ganache au chocolat sur le fond de tarte refroidi. Laisser refroidir au frigo au moins deux heures avant dégustation. ",,
-a4141dc6,Tarte fine aux pommes,Carla,Dessert,"Réconfortant, Tarte, Végétarien, Automne, Facile",,,"1 pâte feuilletéee
+bc2af430,Tarte fine aux pommes,Carla,Dessert,"Réconfortant, Tarte, Végétarien, Automne, Facile",,,"1 pâte feuilletéee
 4 pommes
 200g de compotes de pommes maison dé préférence (4 pommes?)
 40g de beurre
@@ -812,7 +812,7 @@ Faire fondre le beurre puis y ajouter le sucre
 Badigeonner les pommes du mélanges beurre sucre
 Parsemer de sucre vanillé. 
 Enfourner la tarte 35 min en bas du four à 210°C",,
-2b7f2351,Financiers,Carla,Autre,"Goûter, Facile","L'avantage, c'est que ça permet d'utiliser les blancs d'oeufs dont tu ne sais pas quoi faire, suurtout si t'aimes pas la meringue. 
+6e6cbbaa,Financiers,Carla,Autre,"Goûter, Facile","L'avantage, c'est que ça permet d'utiliser les blancs d'oeufs dont tu ne sais pas quoi faire, suurtout si t'aimes pas la meringue. 
 Les blancs d'oeufs ça se congèle très bien. Donc normalement, tu as toujours de quoi faire des financiers. Sinon, pose toi des questions. ",15 min,"4 blancs d'oeufs
 140g de sucre glace
 120g de poudre d'amande
@@ -827,7 +827,7 @@ Versez dans des moules à financiers.
 Cuire 20 min à 180°C.
 Démouler dès la sortie du four et laisser refroidir sur une grille. 
 C'est beaucoup moins bon le lendemain donc la solution c'est de tout manger. Au pire, conserver dans une boite en métal. ",,
-83f84925,Petis pots de crème au chocolat ,Carla,Dessert,"Chocolat, Froid",Comme la laitière,,"3 jaunes d'oeufs (garde les blancs pour des financiers)
+cde5b6c9,Petis pots de crème au chocolat ,Carla,Dessert,"Chocolat, Froid",Comme la laitière,,"3 jaunes d'oeufs (garde les blancs pour des financiers)
 120g de chocolat
 150 ml de crème liquide entière
 150 ml de lait
@@ -838,7 +838,7 @@ Reverser l'ensemble dans la casserole et chauffer à feu moyen jusqu'à obtenir 
 Verser cette crème en trois fois sur le chocolat.
 Mixer. 
 Verser la préparation dans de petits pots en verre et filmer.",,
-3b061872,Tarte rustique poivrons pesto et Mozzarella ,Carla,Plat,"Végétarien, Tarte, Sans gluten, Facile, Léger, Fromage",,,"Pâte : 
+999b39e7,Tarte rustique poivrons pesto et Mozzarella ,Carla,Plat,"Végétarien, Tarte, Sans gluten, Facile, Léger, Fromage",,,"Pâte : 
 250g de farine d'épeautre
 110g de beurre salé froid (si si la Bretagne)
 5cl d'eau
@@ -849,32 +849,32 @@ Garniture:
 2 Cspe de Pesto vert
 125g de mozzarella
 Mélange d'épices italiennes (je te jure ça existe à Leclerc)",,,
-28ea3c96,"Cannellonis au brocolis, truite fumée et ricotta",Carla,Plat,"Italie, Pâtes, Fromage",,,,,,
-5ed71bf9,Chausson aux pommes et camembert,Carla,Plat,"Végétarien, Chaud, Réconfortant, Fromage","La pomme, le camembert, mariage classique. Le classique c'est rassurant. Avec une salade pour le midi ça passe tout seul.",,,,,
-99cebf3d,Courgettes pimentées à la crème de féta,Carla,Plat,"Végétarien, Légumes, Fromage",,,,,,
-70275e9d,Soupe de haricots blancs,Carla,Plat,"Réconfortant, Hiver",,,,,,
-ac60c337,Salade d'aubergines,Carla,Plat,"Salade, Légumes, Été","Franchement c'est bon. L'été, avec un barbecue ça fait le job. Pour le moment 100% validé, sauf si tu aimes pas les aubergines mais bon dans ces cas là on ne peut plus rien pour toi. ",,,,,
-fd0d5067,Pain écureuil,Carla,Autre,"Sain, Végétarien",C'est pour te motiver à faire du sport ou rester dans le déni que parfois tu manges des choses bonnes pour la santé. ,,,,,
-50568e40,Pain à la poêle,Carla,Autre,"Végétarien, Réconfortant, Chaud",C'est au poil,,,,,
-75e49667,Brioche feuilletée,Carla,Autre,"Kiffeur, Goûter, Brunch",,,,,,
-754f7988,Doowap,Carla,Autre,"Brunch, Goûter, Chocolat",,,,,,
-edc673cb,Crêpes : la recette ultime,Carla,Autre,"Bretagne, Brunch, Goûter, Facile",,,,,,
-395d83fa,Pâte à tartiner chocolat,Carla,Autre,"Kiffeur, Chocolat, Facile",C'est meilleur que le nutella mais pas moins gras. ,10 min,"150g de chocolat noir
+46147d4e,"Cannellonis au brocolis, truite fumée et ricotta",Carla,Plat,"Italie, Pâtes, Fromage",,,,,,
+df69ca52,Chausson aux pommes et camembert,Carla,Plat,"Végétarien, Chaud, Réconfortant, Fromage","La pomme, le camembert, mariage classique. Le classique c'est rassurant. Avec une salade pour le midi ça passe tout seul.",,,,,
+5a150877,Courgettes pimentées à la crème de féta,Carla,Plat,"Végétarien, Légumes, Fromage",,,,,,
+6b41aadb,Soupe de haricots blancs,Carla,Plat,"Réconfortant, Hiver",,,,,,
+283f35c5,Salade d'aubergines,Carla,Plat,"Salade, Légumes, Été","Franchement c'est bon. L'été, avec un barbecue ça fait le job. Pour le moment 100% validé, sauf si tu aimes pas les aubergines mais bon dans ces cas là on ne peut plus rien pour toi. ",,,,,
+11d6f791,Pain écureuil,Carla,Autre,"Sain, Végétarien",C'est pour te motiver à faire du sport ou rester dans le déni que parfois tu manges des choses bonnes pour la santé. ,,,,,
+a47a5542,Pain à la poêle,Carla,Autre,"Végétarien, Réconfortant, Chaud",C'est au poil,,,,,
+1ac0e1fb,Brioche feuilletée,Carla,Autre,"Kiffeur, Goûter, Brunch",,,,,,
+196ce410,Doowap,Carla,Autre,"Brunch, Goûter, Chocolat",,,,,,
+949591cc,Crêpes : la recette ultime,Carla,Autre,"Bretagne, Brunch, Goûter, Facile",,,,,,
+acef6a7d,Pâte à tartiner chocolat,Carla,Autre,"Kiffeur, Chocolat, Facile",C'est meilleur que le nutella mais pas moins gras. ,10 min,"150g de chocolat noir
 400 ml de lait concentré sucré
 125g de beurre mou
 1 sachet de sucre vanillé","Faire fondre le chocolat avec le lait concentré et le sucre vanillé. 
 Ajouter hors du feu le beurre coupé en morceaux. 
 
 Laisser tiédir et verser dans des pots à confiture. Conserver au frais",,
-ee2c976e,Pâte à tartiner spéculoos,Carla,Autre,"Kiffeur, Facile",Ca change du chocolat sur les crêpes.,10 min,"250g de spéculoos
+ab2ace6e,Pâte à tartiner spéculoos,Carla,Autre,"Kiffeur, Facile",Ca change du chocolat sur les crêpes.,10 min,"250g de spéculoos
 200 ml de lait concentré non sucré
 1Cspe de miel
 1/ CC de cannelle en poudre (facultatif)","Mixer les spéculoos
 Chauffer le lait concentré et le miel. Ajouter la cannelle. 
 Ajouter ce mélange aux spéculoos et mixer de nouveau. 
 Verser dans des pots à confiture et conserver au frais",,
-26c0f27f,Cinnamon Rolls,Carla,Autre,"Goûter, Brunch, Kiffeur",,,,,,
-10c1c2ae,Caramel au beurre salé à tartiner,Carla,Autre,"Kiffeur, Facile","Le caramel ça se mange avec tout, surtout les crêpes.",Pas très longtemps sauf si tu dois tout recommencer,"200g de sucre
+24b6265e,Cinnamon Rolls,Carla,Autre,"Goûter, Brunch, Kiffeur",,,,,,
+5175cb5a,Caramel au beurre salé à tartiner,Carla,Autre,"Kiffeur, Facile","Le caramel ça se mange avec tout, surtout les crêpes.",Pas très longtemps sauf si tu dois tout recommencer,"200g de sucre
 80g de beurre demi-sel
 40 cl de crème liquide entière","Faire chauffer le sucre dans une casserole sans remuer jusquà ce qu'il caramélise. S'il brûle c'est trop tard, il faut tout jeter. C'est dommage. 
 
@@ -884,8 +884,8 @@ Une fois homogène, poursuivre la cuisson 5 minutes et retirer du feu.
 
 Conserver dans des pots à confitures au frigo.
 ",,
-d1af0c08,Viennoiseries,Kaki,Autre,"Goûter, Stylé, Chocolat",,,,,img/viennoiseries-1.jpg,img/viennoiseries-1_mini.jpg
-sushis-et-makis,Sushis & Makis,Lou,Plat,"Froid, Riz, Poisson, Réconfortant, Japon",Tellement moins cher qu'en magasin... Penser à avoir une natte de bambou pour la préparation.,1h30,"# Riz à sushi
+686e9095,Viennoiseries,Kaki,Autre,"Goûter, Stylé, Chocolat, image",,,,,img/viennoiseries-1.jpg,img/viennoiseries-1_mini.jpg
+sushis-et-makis,Sushis & Makis,Lou,Plat,"Froid, Riz, Poisson, Réconfortant, Japon, image",Tellement moins cher qu'en magasin... Penser à avoir une natte de bambou pour la préparation.,1h30,"# Riz à sushi
 400g de riz à sushi
 590mL d'eau
 80mL de vinaigre à riz
@@ -933,7 +933,7 @@ POUR LES SUSHIS: Prendre un peu de riz et le presser dans la paume de sa main po
 
 Servir frais avec des coupelles de sauce soja.","img/sushi-4.jpg, img/sushi-2.jpg, img/sushi-3.jpg, img/sushi-1.jpg
 ",img/sushi-1_mini.jpg
-paupiettes-porc-chou-fleur-grille,Paupiettes de porc et chou-fleur grillé au four,Kaki,Plat,"France, Sain, Légumes, Viande, Printemps, Chaud",À peu près sain pour un truc fait par papa. ,45 minutes,"# Paupiettes de porc à la cocotte
+paupiettes-porc-chou-fleur-grille,Paupiettes de porc et chou-fleur grillé au four,Kaki,Plat,"France, Sain, Légumes, Viande, Printemps, Chaud, image",À peu près sain pour un truc fait par papa. ,45 minutes,"# Paupiettes de porc à la cocotte
 Paupiettes de porc (4-6)
 2 Oignons
 3 Échalottes
@@ -961,8 +961,8 @@ Déglacer avec de l'eau, du vin blanc et l'alcool de prune. Ajouter ensuite le b
 Ensuite, faire cuire dans une cocotte minute 15 minutes à partir du bruit de pshitt. 
 
 Servir avec plein de sauce.","img/paupiette-chou-fleur-1.jpg, img/paupiette-chou-fleur-2.jpg, img/paupiette-chou-fleur-3.jpg",img/paupiette-chou-fleur-1_mini.jpg
-cuisse-dinde-legumes,Cuisse de dinde aux légumes [INC],Kaki,Plat,"Kiffeur, Légumes, Viande, Chaud, Hiver","Le fameux plat de Noël, mais pour une fois, la crème fraîche est en option.",1h20,,,"img/cuisse-dinde-legumes-1.jpg, img/cuisse-dinde-legumes-2.jpg, img/cuisse-dinde-legumes-3.jpg",img/cuisse-dinde-legumes-1_mini.jpg
-ramen-poulet,Ramen au poulet,Lou,Plat,"Chaud, Pâtes, Stylé, Viande, Japon",Attention à pas trop saler ! À part ça c'est super bon. Et il faut des grands bols c'est important les grands bols.,50 minutes,"# Oeufs marinés
+cuisse-dinde-legumes,Cuisse de dinde aux légumes [INC],Kaki,Plat,"Kiffeur, Légumes, Viande, Chaud, Hiver, image","Le fameux plat de Noël, mais pour une fois, la crème fraîche est en option.",1h20,,,"img/cuisse-dinde-legumes-1.jpg, img/cuisse-dinde-legumes-2.jpg, img/cuisse-dinde-legumes-3.jpg",img/cuisse-dinde-legumes-1_mini.jpg
+ramen-poulet,Ramen au poulet,Lou,Plat,"Chaud, Pâtes, Stylé, Viande, Japon, image",Attention à pas trop saler ! À part ça c'est super bon. Et il faut des grands bols c'est important les grands bols.,50 minutes,"# Oeufs marinés
 4 oeufs
 3 c.a.s. de mirin
 3 c.a.s. de saké (ou autre alcool)
@@ -1006,7 +1006,7 @@ Verser le bouillon dans les bols à ramen.
 
 Disposer dans chaque bol une portion de nouilles, de poulet coupé en lamelles, de champignons. Décorer de quelques feuilles d'algues séchées et de graines de sésame. 
 On peut encore ajouter de la sauce soja ou marinade des oeufs dans le bouillon pour décorer ou ajouter du goût, mais penser à goûter avant, le tout peut rapidement devenir trop salée !","img/ramen-1.jpg, img/ramen-2.jpg, img/ramen-3.jpg, img/ramen-4.jpg",img/ramen-1_mini.jpg
-opera-matcha-chocolat,Opéra Matcha Chocolat,Maxence,Dessert,"Gâteau, France, Réconfortant, Froid, Chocolat, Thé, Stylé",Un des meilleurs gâteaux du monde selon Lou. Et elle es très objective.,2 heures,"# Biscuit Joconde
+opera-matcha-chocolat,Opéra Matcha Chocolat,Maxence,Dessert,"Gâteau, France, Réconfortant, Froid, Chocolat, Thé, Stylé, image",Un des meilleurs gâteaux du monde selon Lou. Et elle es très objective.,2 heures,"# Biscuit Joconde
 3 œufs entiers
 3 blancs d’œufs
 100 g de poudre d’amandes
@@ -1057,7 +1057,7 @@ Découper le biscuit en trois rectangles égaux.
 Imbiber la première couche de sirop de matcha, étaler une couche de crème au beurre au matcha, puis ajouter la ganache.
 
 Empiler et répéter l'étape précédente avec les deux rectangles de biscuit restants, en terminant par une couche de ganache brillante.","img/opera-choco-matcha-1.jpg, img/opera-choco-matcha-2.jpg, img/opera-choco-matcha-3.jpg",img/opera-choco-matcha-1_mini.jpg
-saumon-marine-miso,Saumon mariné au miso,Lou,Plat,"Poisson, Japon, Riz, Chaud, Réconfortant",Repas du flemmard tant que la marinade est anticipée.,15 minutes,"# Marinade
+saumon-marine-miso,Saumon mariné au miso,Lou,Plat,"Poisson, Japon, Riz, Chaud, Réconfortant, image",Repas du flemmard tant que la marinade est anticipée.,15 minutes,"# Marinade
 80 g de pâte miso
 2 c.a.s. de sauce soja
 3 c.a.s. de saké (ou vin blanc)
@@ -1075,7 +1075,7 @@ Laisser mariner à plat au frais, pendant une nuit.
 # Cuisson
 
 Faire cuire les pavés de saumon marinés. Déposer les pavés cuits sur un bol de riz. ","img/saumon-marine-miso-1.jpg, img/saumon-marine-miso-2.jpg, img/saumon-marine-miso-3.jpg",img/saumon-marine-miso-1_mini.jpg
-gateau-pommes-caramel,Gâteau tatin pommes-caramel,Maxence,Dessert,"Gâteau, Végétarien, Goûter, France, Fruits, Automne",Beh c'est comme un gâteau aux pommes mais avec du caramel en plus hein.,1 heure,"# Coulis pommes-caramel
+gateau-pommes-caramel,Gâteau tatin pommes-caramel,Maxence,Dessert,"Gâteau, Végétarien, Goûter, France, Fruits, Automne, image",Beh c'est comme un gâteau aux pommes mais avec du caramel en plus hein.,1 heure,"# Coulis pommes-caramel
 200g de sucre
 100g de crème liquide
 1 c.a.c. d'extrait de vanille liquide
