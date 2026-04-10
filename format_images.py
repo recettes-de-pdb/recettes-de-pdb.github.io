@@ -34,7 +34,10 @@ def reprocess_csv(csv_path):
         # Assume tag column is always fourth column
         tags_field = fieldnames[4]
 
+        current_id = 0
+
         for row in reader:
+            current_id += 1
             recipe_id = row.get(id_field, '').strip()
             has_recipe_img = (row.get(img_fied, '').strip() != "") or (row.get(mini_field, '').strip() != "")
 
@@ -44,8 +47,7 @@ def reprocess_csv(csv_path):
 
             # If ID is empty → generate a unique one
             if not recipe_id:
-                new_id = str(uuid.uuid4())[:8]  # Short unique ID
-                print(f"Generating new ID: {new_id}")
+                new_id = "recette-" + str(current_id)  # Short unique ID
                 row[id_field] = new_id
 
             rows.append(row)
